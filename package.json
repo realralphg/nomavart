@@ -1,7 +1,7 @@
 {
   "name": "nomavart",
   "version": "0.0.1",
-  "description": "Nomavart is a dynamic agricultural company of qualified and experienced farmers whose goal is to create an effective symbiotic relationship between crop and livestock farmers.",
+  "description": "Nomavart is a dynamic agricultural company of qualified and experienced crop and Livestock Farmers registered under the Companies and Allied Matters Decree of 1990 in Nigeria.",
   "productName": "Nomavart",
   "author": "Isah Raphael <33344810+realralphg@users.noreply.github.com>",
   "private": true,
@@ -10,16 +10,21 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "quasar": "^2.0.0",
-    "vue-i18n": "^9.0.0-beta.0",
-    "vuex": "^4.0.1"
+    "leaflet": "^1.7.1",
+    "quasar": "^1.0.0",
+    "vue-i18n": "^8.0.0",
+    "vue-observe-visibility": "^1.0.0",
+    "vue2-animate": "^2.1.4",
+    "vue2-leaflet": "^2.7.0"
   },
   "devDependencies": {
-    "@quasar/app": "^3.0.0"
+    "@quasar/app": "^2.0.0"
   },
   "browserslist": [
+    "ie >= 11",
     "last 10 Chrome versions",
     "last 10 Firefox versions",
     "last 4 Edge versions",
@@ -31,7 +36,7 @@
     "last 5 Opera versions"
   ],
   "engines": {
-    "node": ">= 12.22.1",
+    "node": ">= 10.18.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   }

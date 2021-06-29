@@ -1,45 +1,114 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
+    <q-header class="q-py-sm bg-white" :class="sizes">
+      <q-toolbar class="text-primary">
+        <img
+          src="/images/logo2.png"
+          class="cursor-pointer q-mr-sm"
+          height="50"
+          width="75"
         />
-
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-space />
+        <q-tabs>
+          <q-route-tab
+            label="Home"
+            ripple
+            no-caps
+            class="gt-sm q-mx-sm my-font-poppins-light"
+            to="/"
+            exact
+          />
+          <q-route-tab
+            label="About Us"
+            ripple
+            no-caps
+            class="gt-sm q-mx-sm my-font-poppins-light"
+            to="/about"
+            exact
+          />
+          <q-route-tab
+            label="Team"
+            ripple
+            no-caps
+            class="gt-sm q-mx-sm my-font-poppins-light"
+            to="/team"
+            exact
+          />
+          <q-route-tab
+            label="Contact Us"
+            ripple
+            no-caps
+            class="gt-sm q-mx-sm my-font-poppins-light"
+            to="/contact"
+            exact
+          />
+        </q-tabs>
+        <div class="q-pa-sm lt-md">
+          <q-btn flat round dense icon="menu" class="q-mr-sm">
+            <q-menu>
+              <q-list>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-item-label
+                      ><q-btn
+                        stretch
+                        flat
+                        label="Home"
+                        to="/"
+                        no-caps
+                        size="md"
+                        class="q-mx-sm my-font-poppins-light"
+                    /></q-item-label>
+                  </q-item-section>
+                </q-item>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-item-label
+                      ><q-btn
+                        stretch
+                        flat
+                        label="About Us"
+                        to="/about"
+                        no-caps
+                        size="md"
+                        class="q-mx-sm my-font-poppins-light"
+                    /></q-item-label>
+                  </q-item-section>
+                </q-item>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-item-label
+                      ><q-btn
+                        stretch
+                        flat
+                        label="Team"
+                        to="/team"
+                        no-caps
+                        size="md"
+                        class="q-mx-sm my-font-poppins-light"
+                    /></q-item-label>
+                  </q-item-section>
+                </q-item>
+                <q-item clickable v-close-popup>
+                  <q-item-section>
+                    <q-item-label
+                      ><q-btn
+                        stretch
+                        flat
+                        label="Contact Us"
+                        to="/contact"
+                        no-caps
+                        size="md"
+                        class="q-mx-sm my-font-poppins-light"
+                    /></q-item-label>
+                  </q-item-section>
+                </q-item>
+              </q-list>
+            </q-menu>
+          </q-btn>
+        </div>
       </q-toolbar>
     </q-header>
-
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-      class="bg-grey-1"
-    >
-      <q-list>
-        <q-item-label
-          header
-          class="text-grey-8"
-        >
-          Essential Links
-        </q-item-label>
-
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -48,72 +117,94 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-];
-
-import { defineComponent, ref } from 'vue'
-
-export default defineComponent({
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink
-  },
-
-  setup () {
-    const leftDrawerOpen = ref(false)
-
+export default {
+  name: "MainLayout",
+  data() {
     return {
-      essentialLinks: linksList,
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
-})
+      leftDrawerOpen: false,
+    };
+  },
+  computed: {
+    sizes() {
+      let size = this.$q.screen.name;
+      if (size == "md" || size == "lg" || size == "xl") {
+        return "q-px-xl ";
+      } else return "";
+    },
+  },
+};
 </script>
+
+<style lang="scss">
+@font-face {
+  font-family: poppins-black;
+  src: url("/fonts/poppins/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: poppins-extraBold;
+  src: url("/fonts/poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("/fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppins-regular;
+  src: url("/fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-italic;
+  src: url("/fonts/poppins/Poppins-Italic.ttf");
+}
+
+@font-face {
+  font-family: poppins-boldItalic;
+  src: url("/fonts/poppins/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: poppins-light;
+  src: url("/fonts/poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: poppins-thin;
+  src: url("/fonts/poppins/Poppins-Thin.ttf");
+}
+
+.my-font-poppins-black {
+  font-family: "poppins-black";
+}
+
+.my-font-poppins-extraBold {
+  font-family: "poppins-extraBold";
+}
+
+.my-font-poppins-bold {
+  font-family: "poppins-bold";
+}
+
+.my-font-poppins-regular {
+  font-family: "poppins-regular";
+}
+
+.my-font-poppins-italic {
+  font-family: "poppins-italic";
+}
+
+.my-font-poppins-boldItalic {
+  font-family: "poppins-boldItalic";
+}
+
+.my-font-poppins-light {
+  font-family: "poppins-light";
+}
+
+.my-font-poppins-thin {
+  font-family: "poppins-thin";
+}
+</style>
