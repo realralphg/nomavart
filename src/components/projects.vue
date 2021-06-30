@@ -128,6 +128,20 @@
               fattening.
             </span>
           </p>
+          <div class="row">
+            <div class="col">
+              <q-img src="project/1.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/2.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/3.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/4.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -213,6 +227,20 @@
               based on the commercial Agric. World bank template.
             </span>
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/5.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/6.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/7.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/8.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -335,6 +363,20 @@
               activities that will avail themselves in the value chain.
             </span>
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/9.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/10.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/11.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/12.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -367,6 +409,20 @@
               2013.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/13.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/14.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/15.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/16.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -411,6 +467,20 @@
               small scale livestock enterprise.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/17.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/18.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/19.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/20.jpeg" contain></q-img>
+            </div>
+          </div>
 
           <q-separator class="bg-grey-9" />
           <div class="row">
@@ -507,6 +577,20 @@
             />
             <span> To increase profit and disposal income.</span>
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/1.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/2.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/3.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/4.jpeg" contain></q-img>
+            </div>
+          </div>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-separator class="bg-grey-9" />
@@ -549,6 +633,20 @@
               poultry value chain to strive.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/5.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/6.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/7.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/8.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -588,6 +686,20 @@
               of Agriculture.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/9.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/10.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/11.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/12.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -624,6 +736,20 @@
               target MSMEs.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/13.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/14.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/15.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/16.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -694,6 +820,20 @@
               dewormers, acaricides etc.) prior to fattening.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/17.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/18.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/19.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/20.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -803,6 +943,20 @@
               e.g. Hybrid Napier grass and home grown hydroponic technology.
             </span>
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/1.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/2.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/3.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/4.jpeg" contain></q-img>
+            </div>
+          </div>
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
@@ -865,6 +1019,20 @@
               complete will all ranching facilities in Yola Adamawa State.</span
             >
           </p>
+                    <div class="row">
+            <div class="col">
+              <q-img src="project/5.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/6.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/7.jpeg" contain></q-img>
+            </div>
+            <div class="col">
+              <q-img src="project/8.jpeg" contain></q-img>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -886,15 +1054,6 @@
             icon-right="arrow_right"
             label="Get Started"
           />
-          <!-- <q-btn
-            @click="$router.push('/')"
-            no-caps
-            flat
-            style="border: 3px solid white"
-            class="text-white bg-transparent q-ma-sm"
-            icon-right="arrow_right"
-            label="Contact Us"
-          /> -->
         </div>
         <div class="row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -906,12 +1065,12 @@
             >
               Home
             </div>
-            <!-- <div
+            <div
               class="text-body2 q-mt-md cursor-pointer"
               @click="$router.push('/about')"
             >
               About Us
-            </div> -->
+            </div>
           </div>
 
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -919,9 +1078,15 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 q-mt-md cursor-pointer"
-              @click="$router.push('/')"
+              @click="$router.push('/team')"
             >
-              Contact Us
+              Team
+            </div>
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/project')"
+            >
+              Projects
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -929,19 +1094,21 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
               <q-icon name="ion-logo-facebook" style="font-size: 2em" />
-              <span class="q-ml-sm">Facebook</span>
-            </div>
-            <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-twitter" style="font-size: 2em" />
-              <span class="q-ml-sm">Twitter</span>
-            </div>
-            <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-instagram" style="font-size: 2em" />
-              <span class="q-ml-sm">Instagram</span>
+              <a
+                style="text-decoration: none"
+                class="text-white"
+                href="https://www.facebook.com/nomavart/"
+                ><span class="q-ml-sm">Facebook</span></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
               <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
-              <span class="q-ml-sm">Linkedin</span>
+              <a
+                style="text-decoration: none"
+                class="text-white"
+                href="http://www.linkedin.com/in/nomavart"
+                ><span class="q-ml-sm">Linkedin</span></a
+              >
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -961,6 +1128,19 @@
           © 2021 NOMAVART. All rights reserved.
         </div>
         <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
+        <div class="text-caption text-grey-6">
+          <q-btn
+            @click="$router.push('/')"
+            no-caps
+            outline
+            flat
+            style="border: 3px solid white"
+            size="sm"
+            class="text-white q-mr-md q-ma-sm"
+            icon-right="ion-mail"
+            label="Check Mail"
+          />
+        </div>
       </div>
     </section>
   </div>

@@ -15,11 +15,11 @@
           system in each rural community.
         </span>
       </p>
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-img height="400px" src="/images/ayok.jpg" contain></q-img>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <p class="text-h6 my-font-poppins-light text-primary">
             Getting to know us
           </p>
@@ -54,8 +54,8 @@
       </div>
     </section>
     <section class="bg-secondary">
-      <div class="row no-gutters">
-        <div class="col-md-4 col-sm-12 col-xs-12 q-pl-lg q-py-md">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card bg-secondary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -73,7 +73,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-pl-lg q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card bg-primary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -91,7 +91,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-pl-lg q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card bg-secondary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -105,7 +105,9 @@
               <div class="text-subtitle2 text-white my-font-poppins-light">
                 <div class="text-subtitle2 text-white my-font-poppins-light">
                   Teamwork, <br />
-                  Integrity & Excellence
+                  Integrity &
+                  <br />
+                  Excellence
                 </div>
               </div>
             </q-card-section>
@@ -221,11 +223,11 @@
       </div>
     </section>
     <section class="bg-secondary">
-      <div class="row q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <p
             class="
               text-h4
@@ -283,8 +285,8 @@
           </p>
         </div>
       </div>
-      <div class="row q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <p
             class="
               text-h4
@@ -332,15 +334,15 @@
             FUNDED) NIGERIA (NOVEMBER 2006 – DECEMBER 2010).
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/goat.jpg" contain></q-img>
         </div>
       </div>
-      <div class="row q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/cow.jpg" contain></q-img>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <p
             class="
               text-h4
@@ -376,7 +378,7 @@
             />
             NIRSAL PLC (CENTRAL BANK SUBSIDIARY) ON LIVESTOCK (2017 TO DATE).
           </p>
-                    <q-btn
+          <q-btn
             @click="$router.push('/project')"
             no-caps
             outline
@@ -406,15 +408,6 @@
             icon-right="arrow_right"
             label="Get Started"
           />
-          <q-btn
-            @click="$router.push('/')"
-            no-caps
-            flat
-            style="border: 3px solid white"
-            class="text-white bg-transparent q-ma-sm"
-            icon-right="arrow_right"
-            label="Contact Us"
-          />
         </div>
         <div class="row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -426,12 +419,12 @@
             >
               Home
             </div>
-            <!-- <div
+            <div
               class="text-body2 q-mt-md cursor-pointer"
               @click="$router.push('/about')"
             >
               About Us
-            </div> -->
+            </div>
           </div>
 
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -439,9 +432,15 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 q-mt-md cursor-pointer"
-              @click="$router.push('/')"
+              @click="$router.push('/team')"
             >
-              Contact Us
+              Team
+            </div>
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/project')"
+            >
+              Projects
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -449,19 +448,21 @@
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
               <q-icon name="ion-logo-facebook" style="font-size: 2em" />
-              <span class="q-ml-sm">Facebook</span>
-            </div>
-            <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-twitter" style="font-size: 2em" />
-              <span class="q-ml-sm">Twitter</span>
-            </div>
-            <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-instagram" style="font-size: 2em" />
-              <span class="q-ml-sm">Instagram</span>
+              <a
+                style="text-decoration: none"
+                class="text-white"
+                href="https://www.facebook.com/nomavart/"
+                ><span class="q-ml-sm">Facebook</span></a
+              >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
               <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
-              <span class="q-ml-sm">Linkedin</span>
+              <a
+                style="text-decoration: none"
+                class="text-white"
+                href="http://www.linkedin.com/in/nomavart"
+                ><span class="q-ml-sm">Linkedin</span></a
+              >
             </div>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
@@ -481,6 +482,19 @@
           © 2021 NOMAVART. All rights reserved.
         </div>
         <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
+        <div class="text-caption text-grey-6">
+          <q-btn
+            @click="$router.push('/')"
+            no-caps
+            outline
+            flat
+            style="border: 3px solid white"
+            size="sm"
+            class="text-white q-mr-md q-ma-sm"
+            icon-right="ion-mail"
+            label="Check Mail"
+          />
+        </div>
       </div>
     </section>
   </div>

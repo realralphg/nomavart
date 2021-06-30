@@ -17,10 +17,6 @@ const routes = [
         path: '/project',
         component: () => import('pages/Projects.vue')
       },
-      {
-        path: '/contact',
-        component: () => import('pages/Contact.vue')
-      },
     ]
   },
   // Always leave this as last one,
