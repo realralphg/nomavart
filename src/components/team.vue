@@ -17,8 +17,8 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
@@ -30,6 +30,7 @@
                   my-font-poppins-bold
                   custom__heading-green
                   text-white
+                  text-start
                 "
               >
                 AYOK CELESTINE NACHE
@@ -199,7 +200,7 @@
             </span>
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <p class="text-white">
             <q-icon
               color="primary"
@@ -393,8 +394,8 @@
         </div>
       </div>
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
@@ -469,7 +470,7 @@
             management of funds and dedication that led to financial savings.
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <p class="text-white text-justify">
             He is a good manager of resources and can harness them towards
             achieving pre-determined targets at optimal costs. He is a good team
@@ -603,8 +604,8 @@
         </div>
       </div>
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
@@ -738,7 +739,7 @@
             </span>
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <p class="text-white">
             <q-icon
               color="primary"
@@ -870,8 +871,8 @@
         </div>
       </div>
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">...</p>
@@ -982,7 +983,7 @@
             Palladium International Development Nigeria Ltd
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <p class="text-white">
             <q-icon
               color="primary"
@@ -1133,8 +1134,8 @@
         </div>
       </div>
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm q-mx-xl">
-        <div class="col q-ma-xl">
+      <div class="row q-mt-sm text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">...</p>
@@ -1254,7 +1255,7 @@
             Protocol Officer
           </p>
         </div>
-        <div class="col q-ma-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">...</p>
@@ -1396,7 +1397,7 @@
             icon-right="arrow_right"
             label="Get Started"
           />
-          <q-btn
+          <!-- <q-btn
             @click="$router.push('/')"
             no-caps
             flat
@@ -1404,7 +1405,7 @@
             class="text-white bg-transparent q-ma-sm"
             icon-right="arrow_right"
             label="Contact Us"
-          />
+          /> -->
         </div>
         <div class="row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">

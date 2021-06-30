@@ -73,10 +73,9 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-pl-lg q-py-md">
           <q-card class="my-card bg-primary">
-            <q-card-section class="text-center">
-              <!-- <img src="/images/tractor.svg" height="60" width="60" alt="" /> -->
+            <q-card-section class="q-py-xl text-left">
               <q-icon
                 color="secondary"
                 name="ion-glasses"
@@ -92,22 +91,22 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-pr-lg q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-pl-lg q-py-md">
           <q-card class="my-card bg-secondary">
-            <q-card-section class="text-left q-pt-xl q-pb-lg">
+            <q-card-section class="q-py-xl text-left">
               <q-icon
                 color="primary"
                 name="ion-checkmark-circle-outline"
                 style="font-size: 4em"
               />
-              <!-- <img src="/images/money.svg" height="50" width="50" alt="" /> -->
               <div class="text-body1 text-white my-font-poppins-bold">
                 Core Values: (TIE)
               </div>
               <div class="text-subtitle2 text-white my-font-poppins-light">
-                Teamwork <br />
-                Integrity <br />
-                Excellence
+                <div class="text-subtitle2 text-white my-font-poppins-light">
+                  Teamwork, <br />
+                  Integrity & Excellence
+                </div>
               </div>
             </q-card-section>
           </q-card>
@@ -377,6 +376,15 @@
             />
             NIRSAL PLC (CENTRAL BANK SUBSIDIARY) ON LIVESTOCK (2017 TO DATE).
           </p>
+                    <q-btn
+            @click="$router.push('/project')"
+            no-caps
+            outline
+            flat
+            class="text-white bg-primary q-mr-md q-ma-sm"
+            icon-right="arrow_right"
+            label="Read More"
+          />
         </div>
       </div>
     </section>
