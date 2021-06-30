@@ -25,6 +25,26 @@
           label="Get Started Now"
         />
       </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <q-carousel
+          animated
+          v-model="slide"
+          infinite
+          :autoplay="true"
+          arrows
+          thumbnails
+          transition-prev="slide-right"
+          transition-next="slide-left"
+          @mouseenter="autoplay = false"
+          @mouseleave="autoplay = true"
+        >
+          <q-carousel-slide :name="1" img-src="/images/header1.jpg" />
+          <q-carousel-slide :name="2" img-src="/images/header2.jpg" />
+          <q-carousel-slide :name="3" img-src="/images/header3.jpg" />
+          <q-carousel-slide :name="4" img-src="/images/header4.jpg" />
+        </q-carousel>
+        <!-- <q-img height="400px" src="/images/1cow.svg" contain></q-img> -->
+      </div>
     </header>
     <section class="bg-secondary">
       <div class="row no-gutters">
@@ -236,7 +256,7 @@
       </p>
       <div class="row q-mt-sm q-mx-xl">
         <div class="col q-ma-xl">
-          <q-img height="400px" src="/images/services.jpg" contain></q-img>
+          <q-img height="400px" src="/images/header4.jpg" contain></q-img>
         </div>
         <div class="col q-ma-xl">
           <p
@@ -552,6 +572,7 @@
 <script>
 export default {
   data: () => ({
+    slide: 1,
     showAnimationFor: {
       a: false,
       b: false,
@@ -589,7 +610,7 @@ export default {
       rgba(24, 28, 39, 0.9),
       rgba(24, 28, 39, 0.6)
     ),
-    url("/images/greenplant.jpg");
+    url("/images/header1.jpg");
   // background: url("/images/greenplantdark.jpg");
   background-size: cover;
   background-repeat: no-repeat;

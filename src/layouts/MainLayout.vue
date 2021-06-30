@@ -3,7 +3,7 @@
     <q-header class="q-py-sm bg-white" :class="sizes">
       <q-toolbar class="text-primary">
         <img
-          src="/images/logo2.png"
+          src="/images/logo1.png"
           class="cursor-pointer q-mr-sm"
           height="50"
           width="75"
@@ -34,14 +34,14 @@
             to="/team"
             exact
           />
-          <q-route-tab
+          <!-- <q-route-tab
             label="Contact Us"
             ripple
             no-caps
             class="gt-sm q-mx-sm my-font-poppins-light"
             to="/contact"
             exact
-          />
+          /> -->
         </q-tabs>
         <div class="q-pa-sm lt-md">
           <q-btn flat round dense icon="menu" class="q-mr-sm">
@@ -89,7 +89,7 @@
                     /></q-item-label>
                   </q-item-section>
                 </q-item>
-                <q-item clickable v-close-popup>
+                <!-- <q-item clickable v-close-popup>
                   <q-item-section>
                     <q-item-label
                       ><q-btn
@@ -102,7 +102,7 @@
                         class="q-mx-sm my-font-poppins-light"
                     /></q-item-label>
                   </q-item-section>
-                </q-item>
+                </q-item> -->
               </q-list>
             </q-menu>
           </q-btn>

@@ -10,6 +10,10 @@ const routes = [
         component: () => import('pages/About.vue')
       },
       {
+        path: '/team',
+        component: () => import('pages/Team.vue')
+      },
+      {
         path: '/contact',
         component: () => import('pages/Contact.vue')
       },

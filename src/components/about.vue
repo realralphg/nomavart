@@ -222,21 +222,9 @@
       </div>
     </section>
     <section class="bg-secondary">
-      <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Company Organogram</span>
-      </p>
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary">
-            <q-img height="600px" contain src="/images/organogram.png" />
-          </q-card>
-        </div>
-      </div>
-    </section>
-    <section class="bg-secondary">
       <div class="row q-mx-xl">
         <div class="col q-ma-xl">
-          <q-img height="400px" src="/images/4.jpg" contain></q-img>
+          <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
         </div>
         <div class="col q-ma-xl">
           <p
@@ -346,12 +334,12 @@
           </p>
         </div>
         <div class="col q-ma-xl">
-          <q-img height="400px" src="/images/5.jpg" contain></q-img>
+          <q-img height="400px" src="/images/goat.jpg" contain></q-img>
         </div>
       </div>
       <div class="row q-mx-xl">
         <div class="col q-ma-xl">
-          <q-img height="400px" src="/images/6.jpg" contain></q-img>
+          <q-img height="400px" src="/images/cow.jpg" contain></q-img>
         </div>
         <div class="col q-ma-xl">
           <p
