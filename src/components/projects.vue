@@ -605,8 +605,8 @@
                 "
               >
                 <span class="text-primary">G.</span>
-                PALLADIUM GROUP (PROPCOM MAIKARFI – (DFID FUNDED) (SEP 2015 –
-                JUN 2018)
+                LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM GROUP (DFID FUNDED) 
+            – SEPTEMBER, 2015 – JUNE 2018
               </p>
             </div>
           </div>
@@ -619,21 +619,44 @@
               class="q-mr-sm"
             />
             <span
-              >Project was about livestock production interventions at Propcom
-              Maikarfi. This included Feed Finishing (FF) and Local Chicken
-              improved production (LOCIP). The FF intervention was a
-              modification from that implemented at GEMS1 (Meat and Leather
-              Project). Nomavart worked to modify the FF into a more holistic
-              ruminant intervention covering health, production, fattening and
-              dairy. The LOCIP intervention was developed from concept note,
-              pilot leading to full roll-out. This low initial cost intervention
-              has great potentials to uplift the rural poor - especially women,
-              youths and other actors out of poverty in a short period. In order
-              to create a sustainable environment for actors in the smallholder
-              poultry value chain to strive.</span
+              >Feed Finishing (FF) and Local Chicken improved production (LOCIP). 
+              The FF intervention was a modification from that implemented at GEMS1 
+              (Meat and Leather Project).  </span
             >
           </p>
-                    <div class="row">
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Modifying the FF into a more holistic ruminant intervention covering health, 
+              production, fattening and dairy. The LOCIP intervention was developed from 
+              concept note, pilot leading to full roll-out. This low initial cost intervention 
+              has great potentials to uplift the rural poor - especially women, youths and other 
+              actors out of poverty in a short period.  </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >The launching of the Smallholder Poultry Forum (SPF) which came about from 
+              collaboration with other actors in this value chain to promote identification 
+              and ways by which actors at various stages can innovate to overcome challenges 
+              and increase profitability in their businesses. </span
+            >
+          </p>        
+
+          <div class="row">
             <div class="col">
               <q-img src="project/5.jpeg" contain></q-img>
             </div>
@@ -659,7 +682,8 @@
                 "
               >
                 <span class="text-primary">H.</span>
-                PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) (JAN 2011 – AUG 2015)
+                MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) 
+            – JANUARY 2011 – AUGUST 2015
               </p>
             </div>
           </div>
@@ -672,21 +696,66 @@
               class="q-mr-sm"
             />
             <span
-              >Nomavart pioneered for the first time in Nigeria, the Feed
-              Finishing Intervention of GEMS1using the M4P Approach. It was one
-              of the most well received and successful interventions with good
-              sustainability prospects. Facilitated the commercial production of
-              balanced ruminant feeds to supplement traditional feeds given to
-              ruminants being fattened. The balanced ruminant feed was also
-              adapted by some dairy farmers with favorable outcomes. The FF
-              model was adopted by the Federal Ministry of Agriculture (FMARD)
-              and duplicated in several States under the Agricultural
-              Transformation Agenda (ATA). In implementing interventions, we
-              related at the highest levels at the Federal and States Ministries
-              of Agriculture.</span
+              >Feed Finishing Intervention of GEMS1using the M4P Approach. 
+              It was one of the most well received and successful interventions 
+              with good sustainability prospects. </span
             >
           </p>
-                    <div class="row">
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Facilitate the commercial production of balanced ruminant feeds (by feed companies) 
+              to supplement traditional feeds given to ruminants being fattened. The balanced ruminant 
+              feed was also adapted by some dairy farmers with favourable outcomes. </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Adoption of the FF model by the Federal Ministry of Agriculture (FMARD) 
+              and duplicated in several States under the Agricultural Transformation 
+              Agenda (ATA).</span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Development of training Manuals and Modules that could be used in 
+              Agricultural institutions for training of students in Feed Finishing.</span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Development of Feedlot models for high income farmers to reduce open 
+              grazing and reduce farmers/herders clashes.</span
+            >
+          </p>
+          <div class="row">
             <div class="col">
               <q-img src="project/9.jpeg" contain></q-img>
             </div>
@@ -712,8 +781,9 @@
                 "
               >
                 <span class="text-primary">I.</span>
-                INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY (IFDC 1000s+ -
-                USAID Funded) NIGERIA (November 2006 – December 2010)
+                BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL FERTILITY MANAGEMENT (ISFM) 
+            INTERVENTION – INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY 
+            (IFDC 1000S+ - USAID FUNDED) NIGERIA - NOVEMBER 2006 – DECEMBER 2010
               </p>
             </div>
           </div>
@@ -726,17 +796,111 @@
               class="q-mr-sm"
             />
             <span
-              >Nomavart was responsible for identifying the specific needs of
-              target clients and developed appropriate trainings. In some cases,
-              we facilitated their identification and organized workshops and
-              trade shows. This included budgeting, logistics and reports to the
-              IFDC Nigeria Office and the financiers. Nomavart was responsible
-              for the networking of collaborators and stakeholders. He played a
-              leading role in the development of a training curriculum for the
-              target MSMEs.</span
+              >Identifying the specific needs of target clients and developed 
+              appropriate trainings. 
+              </span
             >
           </p>
-                    <div class="row">
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Development of a training curriculum for target MSMEs.
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Facilitating identification and organizing workshops and trade shows. 
+              This included budgeting, logistics and reports to the IFDC Nigeria Office and the financiers.
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Networking collaborators and stakeholders.
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Strategic launching of the 1000+ (ISFM) project. 
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Growing the number of clusters from three (3) clusters at inception of 
+              a pilot in 2006 to 26 in 2009 covering five (5) States. The clusters were 
+              in rice, maize, soya beans, cowpea, sesame, chilli pepper, groundnuts, catfish, 
+              ginger and small ruminants value chains. 
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Identification, screening and guiding all the actors towards development 
+              of concept notes leading to annual action plans.
+              </span
+            >
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Sourcing development agencies that led to collaborative interventions 
+              with synergistic effects. This further led to lowering costs of implementing 
+              similar interventions by the collaborating partners.
+              </span
+            >
+          </p>                                                  
+          
+          <div class="row">
             <div class="col">
               <q-img src="project/13.jpeg" contain></q-img>
             </div>
@@ -939,7 +1103,7 @@
               class="q-mr-sm"
             />
             <span>
-              Intervent ion in appropriate feeding and management strategies
+              Intervention in appropriate feeding and management strategies
               e.g. Hybrid Napier grass and home grown hydroponic technology.
             </span>
           </p>
@@ -1019,7 +1183,62 @@
               complete will all ranching facilities in Yola Adamawa State.</span
             >
           </p>
-                    <div class="row">
+
+          <p
+            class="
+              text-h6
+              my-font-poppins-bold
+              custom__heading-green
+              text-white
+            "
+          >
+            Other Experiences
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Consultancy in Livestock development and general Agriculture.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Exotic Pig breeding and production.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Participation in ILRI’s design workshop in Ethiopia. Our contribution 
+            covered the meat, poultry, piggery and dairy value chains.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Participation as critical stakeholder to review the World Bank sponsored 
+            Livestock project by the Nigerian Federal Ministry of Agriculture and Rural Development (FMARD). 
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Anchored ruminant fattening and pig production as an economic empowerment enterprise 
+            for Zango Kataf Local Government, Kaduna.
+          </p>                                                  
+          
+          <div class="row">
             <div class="col">
               <q-img src="project/5.jpeg" contain></q-img>
             </div>

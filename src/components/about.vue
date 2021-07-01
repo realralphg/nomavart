@@ -312,8 +312,8 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            PALLADIUM Group (GRM-GEMS1 – DFID FUNDED) (JANUARY 2011 – AUGUST
-            2015)
+            LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM GROUP (DFID FUNDED) 
+            – SEPTEMBER, 2015 – JUNE 2018
           </p>
           <p class="text-white">
             <q-icon
@@ -321,8 +321,8 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            PALLADIUM GROUP (PROPCOM MAIKARFI – (DFID FUNDED) (SEP 2015 – JUNE
-            2018).
+            MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) 
+            – JANUARY 2011 – AUGUST 2015
           </p>
           <p class="text-white">
             <q-icon
@@ -330,8 +330,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY (IFDC 1000s+ - USAID
-            FUNDED) NIGERIA (NOVEMBER 2006 – DECEMBER 2010).
+            BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL FERTILITY MANAGEMENT (ISFM) 
+            INTERVENTION – INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY 
+            (IFDC 1000S+ - USAID FUNDED) NIGERIA - NOVEMBER 2006 – DECEMBER 2010
           </p>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
@@ -353,14 +354,7 @@
           >
             Past Projects
           </p>
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-checkmark-circle-outline"
-              style="font-size: 2em"
-            />
-            DFID (UKAID) PROPCOM MAI-KARFI (JULY 2016- DEC 2016)
-          </p>
+
           <p class="text-white">
             <q-icon
               color="primary"
@@ -378,6 +372,60 @@
             />
             NIRSAL PLC (CENTRAL BANK SUBSIDIARY) ON LIVESTOCK (2017 TO DATE).
           </p>
+          <p
+            class="
+              text-h6
+              my-font-poppins-bold
+              custom__heading-green
+              text-white
+            "
+          >
+            Other Experiences
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Consultancy in Livestock development and general Agriculture.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Exotic Pig breeding and production.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Participation in ILRI’s design workshop in Ethiopia. Our contribution 
+            covered the meat, poultry, piggery and dairy value chains.
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Participation as critical stakeholder to review the World Bank sponsored 
+            Livestock project by the Nigerian Federal Ministry of Agriculture and Rural Development (FMARD). 
+          </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Anchored ruminant fattening and pig production as an economic empowerment enterprise 
+            for Zango Kataf Local Government, Kaduna.
+          </p>                                                  
+
           <q-btn
             @click="$router.push('/project')"
             no-caps
