@@ -608,7 +608,7 @@
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
-                Financial Manager
+                Finance Manager
               </p>
               <p
                 class="
@@ -890,7 +890,7 @@
             <q-avatar square size="100px">
               <q-img
                 height="auto"
-                src="/images/placeholder.jpg"
+                src="/images/Hosea.jpg"
                 contain
               ></q-img>
             </q-avatar>
@@ -1153,7 +1153,7 @@
             <q-avatar square size="100px">
               <q-img
                 height="auto"
-                src="/images/placeholder.jpg"
+                src="/images/Jerry.jpg"
                 contain
               ></q-img>
             </q-avatar>
@@ -1273,7 +1273,7 @@
             <q-avatar square size="100px">
               <q-img
                 height="auto"
-                src="/images/placeholder.jpg"
+                src="/images/Habibu.jpg"
                 contain
               ></q-img>
             </q-avatar>

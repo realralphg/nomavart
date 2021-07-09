@@ -142,7 +142,7 @@
               <div
                 class="text-body2 text-white text-center my-font-poppins-bold"
               >
-                Dr Celestine Ayok
+                Dr. Celestine Ayok
               </div>
               <div
                 class="
@@ -193,7 +193,7 @@
                 "
               >
                 Director, Season accountant and Banker with vast experience in
-                financial Management
+                Finance Management
               </div>
             </q-card-section>
           </q-card>

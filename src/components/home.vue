@@ -234,7 +234,7 @@
                   my-font-poppins-light
                 "
               >
-                Financial Manager
+                Finance Manager
               </div>
             </q-card-section>
           </q-card>
