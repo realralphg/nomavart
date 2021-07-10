@@ -531,17 +531,9 @@
         </div>
         <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
         <div class="text-caption text-grey-6">
-          <q-btn
-            @click="$router.push('/')"
-            no-caps
-            outline
-            flat
-            style="border: 3px solid white"
-            size="sm"
-            class="text-white q-mr-md q-ma-sm"
-            icon-right="ion-mail"
-            label="Check Mail"
-          />
+          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+            <span class="q-pl-sm">Check Mail</span>
+          </q-btn> 
         </div>
       </div>
     </section>

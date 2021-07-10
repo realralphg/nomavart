@@ -17,6 +17,7 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
+      <!-- C E L E S T I N E  A Y O K -->      
       <div class="row q-mt-sm text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
@@ -392,6 +393,8 @@
           </p>
         </div>
       </div>
+
+      <!-- I L I Y A  D U N I Y A -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
       <div class="row q-mt-sm text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
@@ -602,6 +605,8 @@
           </p>
         </div>
       </div>
+
+      <!-- M O H A M M E D  Y U S U F -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
       <div class="row q-mt-sm text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
@@ -869,12 +874,18 @@
           </p>
         </div>
       </div>
+
+      <!-- H O S E A   Y A K U B U -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
       <div class="row q-mt-sm text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">...</p>
+              <p class="text-h6 my-font-poppins-light text-primary">
+                
+                Extension Manager
+
+              </p>
               <p
                 class="
                   text-h6
@@ -929,7 +940,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span class="my-font-poppins-bold"> March 2019 to March 2020 </span>
+            <span class="my-font-poppins-bold"> March 2020 to March 2021 </span>
             <br />
             The FCDO-funded LINKS Program in Northern Nigeria is a 7-year, £
             67.55m programme focused on investment, innovation and business
@@ -1125,19 +1136,425 @@
               Farm Consultant:
             </span>
             <br />
-            : September 2009 to November 2011 Responsible for organizing and
+            September 2009 to November 2011 Responsible for organizing and
             properly vaccinating poultry (above 10,000 layers) as well as
             providing professional advice on livestock farming – (60 ruminants
             -Sheep, Goats and Cattle)
           </p>
         </div>
       </div>
+
+
+      <!-- B U L U S  E Z E K I E L  D O K A  -->
+      <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
+      <div class="row q-mt-sm text-justify">
+        <!-- Column ONE -->
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+          <div class="row">
+            <div>
+              <p class="text-h6 my-font-poppins-light text-primary">
+                
+                Extension Manager
+
+              </p>
+              <p
+                class="
+                  text-h6
+                  my-font-poppins-bold
+                  custom__heading-green
+                  text-white
+                "
+              >
+                Bulus Ezekiel Doka
+              </p>
+            </div>
+            <q-space></q-space>
+            <q-avatar square size="100px">
+              <q-img
+                height="auto"
+                src="/images/Ezekiel.jpg"
+                contain
+              ></q-img>
+            </q-avatar>
+          </div>
+          <p class="text-white text-justify">
+            Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced agricultural  
+            expert with years of experience working with individuals and organization 
+            in field of agricultural market development. Skills include; ability to pay 
+            Attention to details, ability to develop capacity of others, self-motivated to 
+            achieving results, good listener, effective communicator, and good communicator 
+            in English and Hausa languages, good team player, highly dedicated. 
+            Good relationship builder and dynamic communicator who consistently meets goals 
+            and expectations. Excellent at juggling multiple task and working under pressure.
+          </p>
+          <!-- Job Heading -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Livestock Management Lead – CBI Innovations Limited – 2021 to Date
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Responsible for the day-to-day field activities implementation, 
+              capture and report.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Identify and register all the existing dairy cooperatives and 
+              support the formation of new ones.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Coordinate and supervise the implementation of field activities 
+              related to Dairy Agribusiness Cluster (ABC) formation and strengthening.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Develop a tailor-made capacity strengthening plan to promote good dairy practices.
+            </span>
+          </p>   
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Support implementation and coordination of cooperatives activities, organize 
+              their governance meetings and reports.
+            </span>
+          </p>   
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Interfacing with community and external stakeholders by providing positive 
+              and engaging public learning experience.
+            </span>
+          </p>                                   
+
+          <!-- Job Heading -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Agricultural Extension Officer -  Livestock 
+              CARE International in Nigeria – 2019 to 2020
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Develop work plan in collaboration with project team members 
+              according to the proposal.
+            </span>
+          </p>  
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Liaise closely with other agencies working in the same geographic regions 
+              and/or sectors to ensure coordination and avoid overlap.
+            </span>
+          </p>  
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Conducted regular progress review meetings with field teams and 
+              stakeholders to ensure quality is maintained and address any problems.
+            </span>
+          </p>                      
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Distribution of Small Ruminants and Poultry with feed to Project Participants.
+            </span>
+          </p>  
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Provide technical input on animal husbandry practices to Project Participants.
+            </span>
+          </p>  
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Conduct technical trainings to the beneficiaries to implement livelihood interventions.
+            </span>
+          </p>  
+
+
+        </div>
+
+        <!-- Column TWO -->
+        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+
+          <!-- Job Heading -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Business Development and Research Officer (BDRO) – Palladium International Development 
+              Nigeria Ltd – Propcom Mai-karfi DFID funded Project (July 2014 to June 2018)
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Undertake market research and support design of programme interventions.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Facilitated and Coordinated Implementation of roll-out of Local Chicken Improve 
+              Production (LoCIP) with 3 CBOs in Kaduna, Plateau, Gombe and Bauchi States 
+              reaching out over 9000 women in two months.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Livestock Sector Scoping Study of the North-eastern states 
+              (Taraba, Adamawa, Gombe, Bauchi, Yobe and Borno State) of Nigeria 
+              for possible opportunities and interventions.
+            </span>
+          </p>
+
+          <!-- Job Heading -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Business Development Officer (BDO) – GRM International Now Palladium International 
+              Development Nigeria Ltd – GEMS 1   DFID funded Project (January 2014 - June 2015)
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Assisting Intervention Managers as required designing, implementing, and managing 
+              and monitoring programme interventions in project sub sectors focusing on activities 
+              in the Northern States of Nigeria.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Conducted value chain analysis for various interventions as required by the programme.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Provide guidance and advice to Intervention Managers on value chain systems thinking 
+              and market facilitation.
+            </span>
+          </p>
+
+          <!-- Job Heading -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Farm Project Manager - Neska Integrated Ventures, Keffi, Nassarawa State, Nigeria 
+              (April 2013 – August 2014)
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Trained, supervised and managed five (5) farm workers within farm setup.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Designed feed content, feeding schedule, as well as routine treatment and vaccination of animals.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Carried out crisis intervention during outbreak of coccidiosis event amongst poultry.
+            </span>
+          </p>
+          <!-- Job Role -->
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span>
+              Designed feed finishing programme for 50 sheep and reproduction programme for 
+              Cattle through oestrus synchronization and artificial insemination.
+            </span>
+          </p>
+
+        </div>
+      </div>
+
+
+      <!-- J E R R Y  M A T T H E W  W A Z I R I -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
       <div class="row q-mt-sm text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">...</p>
+              <p class="text-h6 my-font-poppins-light text-primary">
+                Business Development Officer
+              </p>
               <p
                 class="
                   text-h6
@@ -1254,10 +1671,14 @@
             Protocol Officer
           </p>
         </div>
+
+      <!-- H A B I B U  Z A K A R I  A M I N U -->
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">...</p>
+              <p class="text-h6 my-font-poppins-light text-primary">
+                Business Development Officer
+              </p>
               <p
                 class="
                   text-h6
@@ -1471,17 +1892,9 @@
         </div>
         <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
         <div class="text-caption text-grey-6">
-          <q-btn
-            @click="$router.push('/')"
-            no-caps
-            outline
-            flat
-            style="border: 3px solid white"
-            size="sm"
-            class="text-white q-mr-md q-ma-sm"
-            icon-right="ion-mail"
-            label="Check Mail"
-          />
+          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+            <span class="q-pl-sm">Check Mail</span>
+          </q-btn> 
         </div>
       </div>
     </section>
