@@ -179,12 +179,12 @@
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-secondary">
-            <q-img contain height="200px" src="/images/placeholder.jpg" />
+            <q-img contain height="200px" src="/images/AliAngo.jpg" />
             <q-card-section>
               <div
                 class="text-body2 text-white text-center my-font-poppins-bold"
               >
-                Ali S. Ango
+                Mr. Ali S. Ango
               </div>
               <div
                 class="
@@ -200,7 +200,7 @@
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-secondary">
-            <q-img contain height="200px" src="/images/placeholder.jpg" />
+            <q-img contain height="200px" src="/images/Natsa.jpg" />
             <q-card-section>
               <div
                 class="text-body2 text-white text-center my-font-poppins-bold"
