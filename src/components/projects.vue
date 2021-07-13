@@ -2,12 +2,11 @@
   <div>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Past Projects</span>
+        <span class="my-font-poppins-bold text-white">Projects</span>
       </p>
       <p class="text-center q-px-xl">
         <span class="my-font-poppins-light text-white"
-          >Our recently executed project include but not limited to the
-          following:
+          >Our team has executed the following projects:
         </span>
       </p>
       <div class="row q-mt-sm text-justify">
@@ -23,6 +22,35 @@
                 "
               >
                 <span class="text-primary">A.</span>
+                AGRO PROCESSING, PRODUCTIVITY ENHANCEMENT AND LIVELIHOOD IMPROVEMENT SUPPORT – APPEALS 
+                PROJECT (SIX YEARS). WORLD BANK ASSISTED PROJECT. (2019 TO DATE)
+              </p>
+            </div>
+          </div>
+          <p class="text-white my-font-poppins-bold">Description of work:</p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span>
+              Nomavart is the service provider for Dairy Value Chain Empowerment Scheme.
+            </span>
+          </p>
+
+          <div class="row">
+            <div>
+              <p
+                class="
+                  text-h6
+                  my-font-poppins-bold
+                  custom__heading-green
+                  text-white
+                "
+              >
+                <span class="text-primary">B.</span>
                 GEMS 1 DFID (UKAID) 2013 -2015 FEED FINISHING CONSULTANT
               </p>
             </div>
@@ -153,7 +181,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">B.</span>
+                <span class="text-primary">C.</span>
                 COMMERCIAL AGRIC. DEVELOPMENT PROGRMME WORLD BANK ASST. (2013 -
                 2014)
               </p>
@@ -252,7 +280,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">C.</span>
+                <span class="text-primary">D.</span>
                 SHEEP & GOAT VALUE CHAIN AGRIC. TRANSFORMATION AGENDA FEDERAL
                 MINISTRY OF AGRICULTURE AND NATURAL RESOURCES ABUJA (2013 –
                 2015)
@@ -388,7 +416,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">D.</span>
+                <span class="text-primary">E.</span>
                 IFDC ON SMALL HOLDER PERI URBAN DAIRY CATTLE PRODUCTION TRAINING
                 (2013)
               </p>
@@ -434,7 +462,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">E.</span>
+                <span class="text-primary">F.</span>
                 PRESIDENTIAL INITIATAITE OF THE FEDERAL GOV. AGRIC SCHOOL
                 PROJECT ON SHEEP & GOAT FATTENING PROGRAMME IN KANO, GOMBE,
                 BAUCHI JOS AND AKWA-IBOM (2014)
@@ -493,7 +521,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">F.</span>
+                <span class="text-primary">G.</span>
                 DFID (UKAID) DAIRY VALUE CHAIN BUSINESS INNOVATION FACILITY(BIF)
                 (AUG 2015- DATE)
               </p>
@@ -592,6 +620,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-separator class="bg-grey-9" />
           <div class="row">
@@ -604,7 +633,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">G.</span>
+                <span class="text-primary">H.</span>
                 LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM GROUP (DFID FUNDED) 
             – SEPTEMBER, 2015 – JUNE 2018
               </p>
@@ -681,7 +710,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">H.</span>
+                <span class="text-primary">I.</span>
                 MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) 
             – JANUARY 2011 – AUGUST 2015
               </p>
@@ -925,7 +954,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">J.</span>
+                <span class="text-primary">K.</span>
                 DFID (UKAID) PROPCOM MAI-KARFI (JULY 2016- DEC 2016)
               </p>
             </div>
@@ -1009,7 +1038,7 @@
                   text-white
                 "
               >
-                <span class="text-primary">K.</span>
+                <span class="text-primary">L.</span>
                 KADUNA STATE GOVERNMENT ON LIVESTOCK ACTIVITIES & GRAZING
                 RESERVES IMPLEMENTATION (JUNE 2016 - DATE)
               </p>

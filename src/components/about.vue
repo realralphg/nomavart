@@ -236,7 +236,7 @@
               text-white
             "
           >
-            Past Projects
+            Projects
           </p>
           <p class="text-white">
             <q-icon
@@ -295,7 +295,7 @@
               text-white
             "
           >
-            Past Projects
+            Projects
           </p>
           <p class="text-white">
             <q-icon
@@ -352,7 +352,7 @@
               text-white
             "
           >
-            Past Projects
+            Projects
           </p>
 
           <p class="text-white">

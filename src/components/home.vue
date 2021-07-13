@@ -438,7 +438,7 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Pig (Products Include Pork).
+            Piggery (Products Include Pork and Sausage).
           </p>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
@@ -468,6 +468,14 @@
             />
             Maize (Corn).
           </p>
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-checkmark-circle-outline"
+              style="font-size: 2em"
+            />
+            Soybeans.
+          </p>          
         </div>
       </div>
     </section>
@@ -575,6 +583,21 @@
 </template>
 
 <script>
+import { useMeta } from 'quasar'
+
+const metaData = {
+  // sets document title
+  title: 'Index Page',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  titleTemplate: title => `${title} - Nomavart`,
+
+  // meta tags
+  meta: {
+    description: { name: 'description', content: 'Nomavart is a dynamic agricultural company of qualified and experienced crop and Livestock Farmers that collaborates with local populations, engaging them in provincial agricultural operations and projects to create job opportunities during projects while fostering integrated farming system in each rural community. ' },
+    keywords: { name: 'keywords', content: 'Nomavart, Iiliya Duniya, Ayok Celestine,  Livestock Nigeria, Agriculture, Agribusiness Nigeria' },
+    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' },
+  },
+}
 export default {
   data: () => ({
     slide: 1,
