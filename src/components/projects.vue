@@ -9,7 +9,7 @@
           >Our team has executed the following projects:
         </span>
       </p>
-      <div class="row q-mt-sm text-justify">
+      <div class="row q-mt-sm container text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -22,8 +22,9 @@
                 "
               >
                 <span class="text-primary">A.</span>
-                AGRO PROCESSING, PRODUCTIVITY ENHANCEMENT AND LIVELIHOOD IMPROVEMENT SUPPORT – APPEALS 
-                PROJECT (SIX YEARS). WORLD BANK ASSISTED PROJECT. (2019 TO DATE)
+                AGRO PROCESSING, PRODUCTIVITY ENHANCEMENT AND LIVELIHOOD
+                IMPROVEMENT SUPPORT – APPEALS PROJECT (SIX YEARS). WORLD BANK
+                ASSISTED PROJECT. (2019 TO DATE)
               </p>
             </div>
           </div>
@@ -36,7 +37,8 @@
               class="q-mr-sm"
             />
             <span>
-              Nomavart is the service provider for Dairy Value Chain Empowerment Scheme.
+              Nomavart is the service provider for Dairy Value Chain Empowerment
+              Scheme.
             </span>
           </p>
 
@@ -255,7 +257,7 @@
               based on the commercial Agric. World bank template.
             </span>
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/5.jpeg" contain></q-img>
             </div>
@@ -391,7 +393,7 @@
               activities that will avail themselves in the value chain.
             </span>
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/9.jpeg" contain></q-img>
             </div>
@@ -437,7 +439,7 @@
               2013.</span
             >
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/13.jpeg" contain></q-img>
             </div>
@@ -495,7 +497,7 @@
               small scale livestock enterprise.</span
             >
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/17.jpeg" contain></q-img>
             </div>
@@ -605,7 +607,7 @@
             />
             <span> To increase profit and disposal income.</span>
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/1.jpeg" contain></q-img>
             </div>
@@ -634,8 +636,8 @@
                 "
               >
                 <span class="text-primary">H.</span>
-                LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM GROUP (DFID FUNDED) 
-            – SEPTEMBER, 2015 – JUNE 2018
+                LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI –
+                PALLADIUM GROUP (DFID FUNDED) – SEPTEMBER, 2015 – JUNE 2018
               </p>
             </div>
           </div>
@@ -648,10 +650,10 @@
               class="q-mr-sm"
             />
             <span
-              >Feed Finishing (FF) and Local Chicken improved production (LOCIP). 
-              The FF intervention was a modification from that implemented at GEMS1 
-              (Meat and Leather Project).  </span
-            >
+              >Feed Finishing (FF) and Local Chicken improved production
+              (LOCIP). The FF intervention was a modification from that
+              implemented at GEMS1 (Meat and Leather Project).
+            </span>
           </p>
 
           <p class="text-white">
@@ -662,12 +664,13 @@
               class="q-mr-sm"
             />
             <span
-              >Modifying the FF into a more holistic ruminant intervention covering health, 
-              production, fattening and dairy. The LOCIP intervention was developed from 
-              concept note, pilot leading to full roll-out. This low initial cost intervention 
-              has great potentials to uplift the rural poor - especially women, youths and other 
-              actors out of poverty in a short period.  </span
-            >
+              >Modifying the FF into a more holistic ruminant intervention
+              covering health, production, fattening and dairy. The LOCIP
+              intervention was developed from concept note, pilot leading to
+              full roll-out. This low initial cost intervention has great
+              potentials to uplift the rural poor - especially women, youths and
+              other actors out of poverty in a short period.
+            </span>
           </p>
 
           <p class="text-white">
@@ -678,12 +681,13 @@
               class="q-mr-sm"
             />
             <span
-              >The launching of the Smallholder Poultry Forum (SPF) which came about from 
-              collaboration with other actors in this value chain to promote identification 
-              and ways by which actors at various stages can innovate to overcome challenges 
-              and increase profitability in their businesses. </span
-            >
-          </p>        
+              >The launching of the Smallholder Poultry Forum (SPF) which came
+              about from collaboration with other actors in this value chain to
+              promote identification and ways by which actors at various stages
+              can innovate to overcome challenges and increase profitability in
+              their businesses.
+            </span>
+          </p>
 
           <div class="row">
             <div class="col">
@@ -711,8 +715,8 @@
                 "
               >
                 <span class="text-primary">I.</span>
-                MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) 
-            – JANUARY 2011 – AUGUST 2015
+                MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 –
+                DFID FUNDED) – JANUARY 2011 – AUGUST 2015
               </p>
             </div>
           </div>
@@ -725,9 +729,38 @@
               class="q-mr-sm"
             />
             <span
-              >Feed Finishing Intervention of GEMS1using the M4P Approach. 
-              It was one of the most well received and successful interventions 
-              with good sustainability prospects. </span
+              >Feed Finishing Intervention of GEMS1using the M4P Approach. It
+              was one of the most well received and successful interventions
+              with good sustainability prospects.
+            </span>
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Facilitate the commercial production of balanced ruminant feeds
+              (by feed companies) to supplement traditional feeds given to
+              ruminants being fattened. The balanced ruminant feed was also
+              adapted by some dairy farmers with favourable outcomes.
+            </span>
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span
+              >Adoption of the FF model by the Federal Ministry of Agriculture
+              (FMARD) and duplicated in several States under the Agricultural
+              Transformation Agenda (ATA).</span
             >
           </p>
 
@@ -739,9 +772,9 @@
               class="q-mr-sm"
             />
             <span
-              >Facilitate the commercial production of balanced ruminant feeds (by feed companies) 
-              to supplement traditional feeds given to ruminants being fattened. The balanced ruminant 
-              feed was also adapted by some dairy farmers with favourable outcomes. </span
+              >Development of training Manuals and Modules that could be used in
+              Agricultural institutions for training of students in Feed
+              Finishing.</span
             >
           </p>
 
@@ -753,35 +786,8 @@
               class="q-mr-sm"
             />
             <span
-              >Adoption of the FF model by the Federal Ministry of Agriculture (FMARD) 
-              and duplicated in several States under the Agricultural Transformation 
-              Agenda (ATA).</span
-            >
-          </p>
-
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-information-circle-outline"
-              style="font-size: 1.5em"
-              class="q-mr-sm"
-            />
-            <span
-              >Development of training Manuals and Modules that could be used in 
-              Agricultural institutions for training of students in Feed Finishing.</span
-            >
-          </p>
-
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-information-circle-outline"
-              style="font-size: 1.5em"
-              class="q-mr-sm"
-            />
-            <span
-              >Development of Feedlot models for high income farmers to reduce open 
-              grazing and reduce farmers/herders clashes.</span
+              >Development of Feedlot models for high income farmers to reduce
+              open grazing and reduce farmers/herders clashes.</span
             >
           </p>
           <div class="row">
@@ -810,9 +816,10 @@
                 "
               >
                 <span class="text-primary">I.</span>
-                BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL FERTILITY MANAGEMENT (ISFM) 
-            INTERVENTION – INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY 
-            (IFDC 1000S+ - USAID FUNDED) NIGERIA - NOVEMBER 2006 – DECEMBER 2010
+                BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL
+                FERTILITY MANAGEMENT (ISFM) INTERVENTION – INTERNATIONAL
+                FERTILIZER DEVELOPMENT COMPANY (IFDC 1000S+ - USAID FUNDED)
+                NIGERIA - NOVEMBER 2006 – DECEMBER 2010
               </p>
             </div>
           </div>
@@ -825,10 +832,19 @@
               class="q-mr-sm"
             />
             <span
-              >Identifying the specific needs of target clients and developed 
-              appropriate trainings. 
-              </span
-            >
+              >Identifying the specific needs of target clients and developed
+              appropriate trainings.
+            </span>
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span>Development of a training curriculum for target MSMEs. </span>
           </p>
 
           <p class="text-white">
@@ -839,9 +855,30 @@
               class="q-mr-sm"
             />
             <span
-              >Development of a training curriculum for target MSMEs.
-              </span
-            >
+              >Facilitating identification and organizing workshops and trade
+              shows. This included budgeting, logistics and reports to the IFDC
+              Nigeria Office and the financiers.
+            </span>
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span>Networking collaborators and stakeholders. </span>
+          </p>
+
+          <p class="text-white">
+            <q-icon
+              color="primary"
+              name="ion-information-circle-outline"
+              style="font-size: 1.5em"
+              class="q-mr-sm"
+            />
+            <span>Strategic launching of the 1000+ (ISFM) project. </span>
           </p>
 
           <p class="text-white">
@@ -852,10 +889,12 @@
               class="q-mr-sm"
             />
             <span
-              >Facilitating identification and organizing workshops and trade shows. 
-              This included budgeting, logistics and reports to the IFDC Nigeria Office and the financiers.
-              </span
-            >
+              >Growing the number of clusters from three (3) clusters at
+              inception of a pilot in 2006 to 26 in 2009 covering five (5)
+              States. The clusters were in rice, maize, soya beans, cowpea,
+              sesame, chilli pepper, groundnuts, catfish, ginger and small
+              ruminants value chains.
+            </span>
           </p>
 
           <p class="text-white">
@@ -866,9 +905,9 @@
               class="q-mr-sm"
             />
             <span
-              >Networking collaborators and stakeholders.
-              </span
-            >
+              >Identification, screening and guiding all the actors towards
+              development of concept notes leading to annual action plans.
+            </span>
           </p>
 
           <p class="text-white">
@@ -879,56 +918,13 @@
               class="q-mr-sm"
             />
             <span
-              >Strategic launching of the 1000+ (ISFM) project. 
-              </span
-            >
+              >Sourcing development agencies that led to collaborative
+              interventions with synergistic effects. This further led to
+              lowering costs of implementing similar interventions by the
+              collaborating partners.
+            </span>
           </p>
 
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-information-circle-outline"
-              style="font-size: 1.5em"
-              class="q-mr-sm"
-            />
-            <span
-              >Growing the number of clusters from three (3) clusters at inception of 
-              a pilot in 2006 to 26 in 2009 covering five (5) States. The clusters were 
-              in rice, maize, soya beans, cowpea, sesame, chilli pepper, groundnuts, catfish, 
-              ginger and small ruminants value chains. 
-              </span
-            >
-          </p>
-
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-information-circle-outline"
-              style="font-size: 1.5em"
-              class="q-mr-sm"
-            />
-            <span
-              >Identification, screening and guiding all the actors towards development 
-              of concept notes leading to annual action plans.
-              </span
-            >
-          </p>
-
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-information-circle-outline"
-              style="font-size: 1.5em"
-              class="q-mr-sm"
-            />
-            <span
-              >Sourcing development agencies that led to collaborative interventions 
-              with synergistic effects. This further led to lowering costs of implementing 
-              similar interventions by the collaborating partners.
-              </span
-            >
-          </p>                                                  
-          
           <div class="row">
             <div class="col">
               <q-img src="project/13.jpeg" contain></q-img>
@@ -1013,7 +1009,7 @@
               dewormers, acaricides etc.) prior to fattening.</span
             >
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/17.jpeg" contain></q-img>
             </div>
@@ -1132,11 +1128,11 @@
               class="q-mr-sm"
             />
             <span>
-              Intervention in appropriate feeding and management strategies
-              e.g. Hybrid Napier grass and home grown hydroponic technology.
+              Intervention in appropriate feeding and management strategies e.g.
+              Hybrid Napier grass and home grown hydroponic technology.
             </span>
           </p>
-                    <div class="row">
+          <div class="row">
             <div class="col">
               <q-img src="project/1.jpeg" contain></q-img>
             </div>
@@ -1245,8 +1241,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Participation in ILRI’s design workshop in Ethiopia. Our contribution 
-            covered the meat, poultry, piggery and dairy value chains.
+            Participation in ILRI’s design workshop in Ethiopia. Our
+            contribution covered the meat, poultry, piggery and dairy value
+            chains.
           </p>
           <p class="text-white">
             <q-icon
@@ -1254,8 +1251,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Participation as critical stakeholder to review the World Bank sponsored 
-            Livestock project by the Nigerian Federal Ministry of Agriculture and Rural Development (FMARD). 
+            Participation as critical stakeholder to review the World Bank
+            sponsored Livestock project by the Nigerian Federal Ministry of
+            Agriculture and Rural Development (FMARD).
           </p>
           <p class="text-white">
             <q-icon
@@ -1263,9 +1261,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Anchored ruminant fattening and pig production as an economic empowerment enterprise 
-            for Zango Kataf Local Government, Kaduna.
-          </p>                                                  
+            Anchored ruminant fattening and pig production as an economic
+            empowerment enterprise for Zango Kataf Local Government, Kaduna.
+          </p>
 
           <div class="row">
             <div class="col">
@@ -1303,7 +1301,7 @@
             label="Get Started"
           />
         </div>
-        <div class="row">
+        <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
@@ -1372,14 +1370,25 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-grey-6">
+        <div class="text-caption text-center text-grey-6">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
-        <div class="text-caption text-grey-6">
-          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+        <div class="text-caption text-center text-grey-6">
+          By Greysoft© Technologies.
+        </div>
+        <div class="text-caption text-center text-grey-6">
+          <q-btn
+            class="q-mt-sm text-primary"
+            no-caps
+            small
+            outline
+            icon="mail"
+            type="a"
+            href="https://www.nomavart.com:2096/"
+            target="_blank"
+          >
             <span class="q-pl-sm">Check Mail</span>
-          </q-btn> 
+          </q-btn>
         </div>
       </div>
     </section>
@@ -1396,13 +1405,13 @@ export default {
       b: false,
       c: false,
       d: false,
-      e: false,
-    },
+      e: false
+    }
   }),
   methods: {
     isViewableNow(isVisible, entry, section) {
       this.showAnimationFor[section] = isVisible;
-    },
+    }
   },
   computed: {
     screenRatioHeading() {
@@ -1410,8 +1419,8 @@ export default {
       if (size == "md" || size == "lg" || size == "xl") {
         return "text-h4";
       } else return "text-h5";
-    },
-  },
+    }
+  }
 };
 </script>
 

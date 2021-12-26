@@ -4,7 +4,7 @@
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-white">Core Team</span>
       </p>
-      <p class="text-center q-px-xl">
+      <p class="text-center p-width q-px-xl">
         <span class="my-font-poppins-light text-white"
           >Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
@@ -17,8 +17,8 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <!-- C E L E S T I N E  A Y O K -->      
-      <div class="row q-mt-sm text-justify">
+      <!-- C E L E S T I N E  A Y O K -->
+      <div class="row container q-mt-lg text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -41,7 +41,7 @@
               <q-img height="auto" src="/images/ayok.jpg" contain></q-img>
             </q-avatar>
           </div>
-          <p class="text-white text-justify">
+          <p class="text-white p-width text-justify">
             Celestine is a Veterinary Doctor of about 30 years’ experience in
             the livestock subsector. He is a graduate of Ahmadu Bello University
             Zaria and also obtained a post graduate Diploma in Dairy farm
@@ -396,7 +396,7 @@
 
       <!-- I L I Y A  D U N I Y A -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm text-justify">
+      <div class="row container q-mt-lg text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -419,7 +419,7 @@
               <q-img height="auto" src="/images/bargo.jpg" contain></q-img>
             </q-avatar>
           </div>
-          <p class="text-white text-justify">
+          <p class="text-white text-justify p-width">
             Engr. Duniya has had a chequered working experience of over
             thirty-nine (39) years spanning the Food, Petroleum, Chemical &
             Agricultural Industries with a stint of teaching for one year in the
@@ -608,7 +608,7 @@
 
       <!-- M O H A M M E D  Y U S U F -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm text-justify">
+      <div class="row q-mt-lg container text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -877,14 +877,12 @@
 
       <!-- H O S E A   Y A K U B U -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm text-justify">
+      <div class="row container q-mt-lg text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
-                
                 Extension Manager
-
               </p>
               <p
                 class="
@@ -899,11 +897,7 @@
             </div>
             <q-space></q-space>
             <q-avatar square size="100px">
-              <q-img
-                height="auto"
-                src="/images/Hosea.jpg"
-                contain
-              ></q-img>
+              <q-img height="auto" src="/images/Hosea.jpg" contain></q-img>
             </q-avatar>
           </div>
           <p class="text-white text-justify">
@@ -1144,18 +1138,15 @@
         </div>
       </div>
 
-
       <!-- B U L U S  E Z E K I E L  D O K A  -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm text-justify">
+      <div class="row q-mt-lg container text-justify">
         <!-- Column ONE -->
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
-                
                 Extension Manager
-
               </p>
               <p
                 class="
@@ -1170,22 +1161,20 @@
             </div>
             <q-space></q-space>
             <q-avatar square size="100px">
-              <q-img
-                height="auto"
-                src="/images/Ezekiel.jpg"
-                contain
-              ></q-img>
+              <q-img height="auto" src="/images/Ezekiel.jpg" contain></q-img>
             </q-avatar>
           </div>
           <p class="text-white text-justify">
-            Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced agricultural  
-            expert with years of experience working with individuals and organization 
-            in field of agricultural market development. Skills include; ability to pay 
-            Attention to details, ability to develop capacity of others, self-motivated to 
-            achieving results, good listener, effective communicator, and good communicator 
-            in English and Hausa languages, good team player, highly dedicated. 
-            Good relationship builder and dynamic communicator who consistently meets goals 
-            and expectations. Excellent at juggling multiple task and working under pressure.
+            Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced
+            agricultural expert with years of experience working with
+            individuals and organization in field of agricultural market
+            development. Skills include; ability to pay Attention to details,
+            ability to develop capacity of others, self-motivated to achieving
+            results, good listener, effective communicator, and good
+            communicator in English and Hausa languages, good team player,
+            highly dedicated. Good relationship builder and dynamic communicator
+            who consistently meets goals and expectations. Excellent at juggling
+            multiple task and working under pressure.
           </p>
           <!-- Job Heading -->
           <p class="text-white">
@@ -1208,7 +1197,7 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Responsible for the day-to-day field activities implementation, 
+              Responsible for the day-to-day field activities implementation,
               capture and report.
             </span>
           </p>
@@ -1221,7 +1210,7 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Identify and register all the existing dairy cooperatives and 
+              Identify and register all the existing dairy cooperatives and
               support the formation of new ones.
             </span>
           </p>
@@ -1234,8 +1223,9 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Coordinate and supervise the implementation of field activities 
-              related to Dairy Agribusiness Cluster (ABC) formation and strengthening.
+              Coordinate and supervise the implementation of field activities
+              related to Dairy Agribusiness Cluster (ABC) formation and
+              strengthening.
             </span>
           </p>
           <!-- Job Role -->
@@ -1247,9 +1237,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Develop a tailor-made capacity strengthening plan to promote good dairy practices.
+              Develop a tailor-made capacity strengthening plan to promote good
+              dairy practices.
             </span>
-          </p>   
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1259,10 +1250,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Support implementation and coordination of cooperatives activities, organize 
-              their governance meetings and reports.
+              Support implementation and coordination of cooperatives
+              activities, organize their governance meetings and reports.
             </span>
-          </p>   
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1272,10 +1263,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Interfacing with community and external stakeholders by providing positive 
-              and engaging public learning experience.
+              Interfacing with community and external stakeholders by providing
+              positive and engaging public learning experience.
             </span>
-          </p>                                   
+          </p>
 
           <!-- Job Heading -->
           <p class="text-white">
@@ -1286,8 +1277,8 @@
               class="q-mr-sm text-justify"
             />
             <span class="my-font-poppins-bold">
-              Agricultural Extension Officer -  Livestock 
-              CARE International in Nigeria – 2019 to 2020
+              Agricultural Extension Officer - Livestock CARE International in
+              Nigeria – 2019 to 2020
             </span>
           </p>
           <!-- Job Role -->
@@ -1299,10 +1290,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Develop work plan in collaboration with project team members 
+              Develop work plan in collaboration with project team members
               according to the proposal.
             </span>
-          </p>  
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1312,10 +1303,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Liaise closely with other agencies working in the same geographic regions 
-              and/or sectors to ensure coordination and avoid overlap.
+              Liaise closely with other agencies working in the same geographic
+              regions and/or sectors to ensure coordination and avoid overlap.
             </span>
-          </p>  
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1325,10 +1316,11 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Conducted regular progress review meetings with field teams and 
-              stakeholders to ensure quality is maintained and address any problems.
+              Conducted regular progress review meetings with field teams and
+              stakeholders to ensure quality is maintained and address any
+              problems.
             </span>
-          </p>                      
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1338,9 +1330,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Distribution of Small Ruminants and Poultry with feed to Project Participants.
+              Distribution of Small Ruminants and Poultry with feed to Project
+              Participants.
             </span>
-          </p>  
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1350,9 +1343,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Provide technical input on animal husbandry practices to Project Participants.
+              Provide technical input on animal husbandry practices to Project
+              Participants.
             </span>
-          </p>  
+          </p>
           <!-- Job Role -->
           <p class="text-white">
             <q-icon
@@ -1362,16 +1356,14 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Conduct technical trainings to the beneficiaries to implement livelihood interventions.
+              Conduct technical trainings to the beneficiaries to implement
+              livelihood interventions.
             </span>
-          </p>  
-
-
+          </p>
         </div>
 
         <!-- Column TWO -->
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-
           <!-- Job Heading -->
           <p class="text-white">
             <q-icon
@@ -1381,8 +1373,9 @@
               class="q-mr-sm text-justify"
             />
             <span class="my-font-poppins-bold">
-              Business Development and Research Officer (BDRO) – Palladium International Development 
-              Nigeria Ltd – Propcom Mai-karfi DFID funded Project (July 2014 to June 2018)
+              Business Development and Research Officer (BDRO) – Palladium
+              International Development Nigeria Ltd – Propcom Mai-karfi DFID
+              funded Project (July 2014 to June 2018)
             </span>
           </p>
           <!-- Job Role -->
@@ -1394,7 +1387,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Undertake market research and support design of programme interventions.
+              Undertake market research and support design of programme
+              interventions.
             </span>
           </p>
           <!-- Job Role -->
@@ -1406,9 +1400,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Facilitated and Coordinated Implementation of roll-out of Local Chicken Improve 
-              Production (LoCIP) with 3 CBOs in Kaduna, Plateau, Gombe and Bauchi States 
-              reaching out over 9000 women in two months.
+              Facilitated and Coordinated Implementation of roll-out of Local
+              Chicken Improve Production (LoCIP) with 3 CBOs in Kaduna, Plateau,
+              Gombe and Bauchi States reaching out over 9000 women in two
+              months.
             </span>
           </p>
           <!-- Job Role -->
@@ -1420,8 +1415,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Livestock Sector Scoping Study of the North-eastern states 
-              (Taraba, Adamawa, Gombe, Bauchi, Yobe and Borno State) of Nigeria 
+              Livestock Sector Scoping Study of the North-eastern states
+              (Taraba, Adamawa, Gombe, Bauchi, Yobe and Borno State) of Nigeria
               for possible opportunities and interventions.
             </span>
           </p>
@@ -1435,8 +1430,9 @@
               class="q-mr-sm text-justify"
             />
             <span class="my-font-poppins-bold">
-              Business Development Officer (BDO) – GRM International Now Palladium International 
-              Development Nigeria Ltd – GEMS 1   DFID funded Project (January 2014 - June 2015)
+              Business Development Officer (BDO) – GRM International Now
+              Palladium International Development Nigeria Ltd – GEMS 1 DFID
+              funded Project (January 2014 - June 2015)
             </span>
           </p>
           <!-- Job Role -->
@@ -1448,9 +1444,10 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Assisting Intervention Managers as required designing, implementing, and managing 
-              and monitoring programme interventions in project sub sectors focusing on activities 
-              in the Northern States of Nigeria.
+              Assisting Intervention Managers as required designing,
+              implementing, and managing and monitoring programme interventions
+              in project sub sectors focusing on activities in the Northern
+              States of Nigeria.
             </span>
           </p>
           <!-- Job Role -->
@@ -1462,7 +1459,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Conducted value chain analysis for various interventions as required by the programme.
+              Conducted value chain analysis for various interventions as
+              required by the programme.
             </span>
           </p>
           <!-- Job Role -->
@@ -1474,8 +1472,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Provide guidance and advice to Intervention Managers on value chain systems thinking 
-              and market facilitation.
+              Provide guidance and advice to Intervention Managers on value
+              chain systems thinking and market facilitation.
             </span>
           </p>
 
@@ -1488,8 +1486,8 @@
               class="q-mr-sm text-justify"
             />
             <span class="my-font-poppins-bold">
-              Farm Project Manager - Neska Integrated Ventures, Keffi, Nassarawa State, Nigeria 
-              (April 2013 – August 2014)
+              Farm Project Manager - Neska Integrated Ventures, Keffi, Nassarawa
+              State, Nigeria (April 2013 – August 2014)
             </span>
           </p>
           <!-- Job Role -->
@@ -1501,7 +1499,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Trained, supervised and managed five (5) farm workers within farm setup.
+              Trained, supervised and managed five (5) farm workers within farm
+              setup.
             </span>
           </p>
           <!-- Job Role -->
@@ -1513,7 +1512,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Designed feed content, feeding schedule, as well as routine treatment and vaccination of animals.
+              Designed feed content, feeding schedule, as well as routine
+              treatment and vaccination of animals.
             </span>
           </p>
           <!-- Job Role -->
@@ -1525,7 +1525,8 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Carried out crisis intervention during outbreak of coccidiosis event amongst poultry.
+              Carried out crisis intervention during outbreak of coccidiosis
+              event amongst poultry.
             </span>
           </p>
           <!-- Job Role -->
@@ -1537,18 +1538,17 @@
               class="q-mr-sm text-justify"
             />
             <span>
-              Designed feed finishing programme for 50 sheep and reproduction programme for 
-              Cattle through oestrus synchronization and artificial insemination.
+              Designed feed finishing programme for 50 sheep and reproduction
+              programme for Cattle through oestrus synchronization and
+              artificial insemination.
             </span>
           </p>
-
         </div>
       </div>
 
-
       <!-- J E R R Y  M A T T H E W  W A Z I R I -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-sm text-justify">
+      <div class="row q-mt-lg container text-justify">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -1568,11 +1568,7 @@
             </div>
             <q-space></q-space>
             <q-avatar square size="100px">
-              <q-img
-                height="auto"
-                src="/images/Jerry.jpg"
-                contain
-              ></q-img>
+              <q-img height="auto" src="/images/Jerry.jpg" contain></q-img>
             </q-avatar>
           </div>
           <p class="text-white">
@@ -1672,7 +1668,7 @@
           </p>
         </div>
 
-      <!-- H A B I B U  Z A K A R I  A M I N U -->
+        <!-- H A B I B U  Z A K A R I  A M I N U -->
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <div class="row">
             <div>
@@ -1692,11 +1688,7 @@
             </div>
             <q-space></q-space>
             <q-avatar square size="100px">
-              <q-img
-                height="auto"
-                src="/images/Habibu.jpg"
-                contain
-              ></q-img>
+              <q-img height="auto" src="/images/Habibu.jpg" contain></q-img>
             </q-avatar>
           </div>
           <p class="text-white">
@@ -1818,7 +1810,7 @@
             label="Get Started"
           />
         </div>
-        <div class="row">
+        <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
@@ -1887,14 +1879,25 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-grey-6">
+        <div class="text-caption text-center text-grey-6">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
-        <div class="text-caption text-grey-6">
-          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+        <div class="text-caption text-center text-grey-6">
+          By Greysoft© Technologies.
+        </div>
+        <div class="text-caption text-center text-grey-6">
+          <q-btn
+            class="q-mt-sm text-primary"
+            no-caps
+            small
+            outline
+            icon="mail"
+            type="a"
+            href="https://www.nomavart.com:2096/"
+            target="_blank"
+          >
             <span class="q-pl-sm">Check Mail</span>
-          </q-btn> 
+          </q-btn>
         </div>
       </div>
     </section>
@@ -1911,13 +1914,13 @@ export default {
       b: false,
       c: false,
       d: false,
-      e: false,
-    },
+      e: false
+    }
   }),
   methods: {
     isViewableNow(isVisible, entry, section) {
       this.showAnimationFor[section] = isVisible;
-    },
+    }
   },
   computed: {
     screenRatioHeading() {
@@ -1925,8 +1928,8 @@ export default {
       if (size == "md" || size == "lg" || size == "xl") {
         return "text-h4";
       } else return "text-h5";
-    },
-  },
+    }
+  }
 };
 </script>
 

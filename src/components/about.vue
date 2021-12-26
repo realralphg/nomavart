@@ -4,8 +4,8 @@
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-white">About Nomavart</span>
       </p>
-      <p class="text-center q-px-xl">
-        <span class="my-font-poppins-light text-white"
+      <p class="text-center q-px-xl p-width">
+        <span class="my-font-poppins-light text-white p-width"
           >Established in 1999, Nomavart is a dynamic agricultural company of
           qualified and experienced crop and Livestock Farmers registered under
           the Companies and Allied Matters Decree of 1990 in Nigeria – RC No.
@@ -15,14 +15,14 @@
           system in each rural community.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row q-mt-sm container cen">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-img height="400px" src="/images/ayok.jpg" contain></q-img>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <p class="text-h6 my-font-poppins-light text-primary">
+          <!-- <p class="text-h6 my-font-poppins-light text-primary">
             Getting to know us
-          </p>
+          </p> -->
           <p
             class="
               text-h4
@@ -54,37 +54,27 @@
       </div>
     </section>
     <section class="bg-secondary">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="my-card bg-secondary">
-            <q-card-section class="q-py-xl text-left">
-              <q-icon
-                color="primary"
-                name="ion-rocket"
-                style="font-size: 4em"
-              />
-              <div class="text-body1 text-white my-font-poppins-bold">
-                Mission
-              </div>
-              <div class="text-subtitle2 text-white my-font-poppins-light">
-                Create an effective symbiotic relationship between crop and
-                livestock farming within rural communities.
-              </div>
-            </q-card-section>
-          </q-card>
-        </div>
+      <div
+        class="row container
+      "
+      >
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card bg-primary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
+                class="wid text-center q-mb-xl"
                 color="secondary"
                 name="ion-glasses"
-                style="font-size: 4em"
+                style="font-size: 5em"
               />
-              <div class="text-body1 text-white my-font-poppins-bold">
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
                 Vision
               </div>
-              <div class="text-subtitle2 text-white my-font-poppins-light">
+              <div
+                class="text-subtitle2 text-center text-white my-font-poppins-light"
+              >
                 To have a global standard platform for integrated rural farming
                 system.
               </div>
@@ -95,15 +85,44 @@
           <q-card class="my-card bg-secondary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
+                class="wid text-center q-mb-xl"
+                color="primary"
+                name="ion-rocket"
+                style="font-size: 5em"
+              />
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
+                Mission
+              </div>
+              <div
+                class="text-subtitle2 text-center text-white my-font-poppins-light"
+              >
+                Create an effective symbiotic relationship between crop and
+                livestock farming within rural communities.
+              </div>
+            </q-card-section>
+          </q-card>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+          <q-card class="my-card bg-secondary">
+            <q-card-section class="q-py-xl text-left">
+              <q-icon
+                class="wid text-center q-mb-xl"
                 color="primary"
                 name="ion-checkmark-circle-outline"
-                style="font-size: 4em"
+                style="font-size: 5em"
               />
-              <div class="text-body1 text-white my-font-poppins-bold">
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
                 Core Values: (TIE)
               </div>
               <div class="text-subtitle2 text-white my-font-poppins-light">
-                <div class="text-subtitle2 text-white my-font-poppins-light">
+                <div
+                  class="text-subtitle2 text-center text-white my-font-poppins-light"
+                >
                   Teamwork, <br />
                   Integrity &
                   <br />
@@ -121,8 +140,8 @@
           >Board Members and Consultants</span
         >
       </p>
-      <p class="text-center q-px-xl">
-        <span class="my-font-poppins-light text-white">
+      <p class="text-center p-width q-px-xl">
+        <span class="my-font-poppins-light p-width text-white">
           Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
           and approach to work, engaging equally and efficiently to deliver the
@@ -134,9 +153,9 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row q-mt-lg container">
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary">
+          <q-card class="bg-secondary hey">
             <q-img contain height="200px" src="/images/ayok.jpg" />
             <q-card-section>
               <div
@@ -157,7 +176,7 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary">
+          <q-card class="bg-secondary hey">
             <q-img contain height="200px" src="/images/bargo.jpg" />
             <q-card-section>
               <div
@@ -178,7 +197,7 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary">
+          <q-card class="bg-secondary hey">
             <q-img contain height="200px" src="/images/AliAngo.jpg" />
             <q-card-section>
               <div
@@ -199,7 +218,7 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary">
+          <q-card class="bg-secondary hey">
             <q-img contain height="200px" src="/images/Natsa.jpg" />
             <q-card-section>
               <div
@@ -222,8 +241,8 @@
         </div>
       </div>
     </section>
-    <section class="bg-secondary">
-      <div class="row">
+    <section class="bg-secondary ">
+      <div class="row container cen q-pt-lg q-mb-xl">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
         </div>
@@ -285,7 +304,7 @@
           </p>
         </div>
       </div>
-      <div class="row q-mt-sm">
+      <div class="row q-mb-xl q-mt-xl cen container">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <p
             class="
@@ -312,8 +331,8 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM GROUP (DFID FUNDED) 
-            – SEPTEMBER, 2015 – JUNE 2018
+            LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM
+            GROUP (DFID FUNDED) – SEPTEMBER, 2015 – JUNE 2018
           </p>
           <p class="text-white">
             <q-icon
@@ -321,8 +340,8 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID FUNDED) 
-            – JANUARY 2011 – AUGUST 2015
+            MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID
+            FUNDED) – JANUARY 2011 – AUGUST 2015
           </p>
           <p class="text-white">
             <q-icon
@@ -330,16 +349,17 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL FERTILITY MANAGEMENT (ISFM) 
-            INTERVENTION – INTERNATIONAL FERTILIZER DEVELOPMENT COMPANY 
-            (IFDC 1000S+ - USAID FUNDED) NIGERIA - NOVEMBER 2006 – DECEMBER 2010
+            BUSINESS DEVELOPMENT SERVICES IN MSMES & INTEGRATED SOIL FERTILITY
+            MANAGEMENT (ISFM) INTERVENTION – INTERNATIONAL FERTILIZER
+            DEVELOPMENT COMPANY (IFDC 1000S+ - USAID FUNDED) NIGERIA - NOVEMBER
+            2006 – DECEMBER 2010
           </p>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/goat.jpg" contain></q-img>
         </div>
       </div>
-      <div class="row q-mt-sm">
+      <div class="row cen q-mt-sm container">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/cow.jpg" contain></q-img>
         </div>
@@ -404,8 +424,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Participation in ILRI’s design workshop in Ethiopia. Our contribution 
-            covered the meat, poultry, piggery and dairy value chains.
+            Participation in ILRI’s design workshop in Ethiopia. Our
+            contribution covered the meat, poultry, piggery and dairy value
+            chains.
           </p>
           <p class="text-white">
             <q-icon
@@ -413,8 +434,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Participation as critical stakeholder to review the World Bank sponsored 
-            Livestock project by the Nigerian Federal Ministry of Agriculture and Rural Development (FMARD). 
+            Participation as critical stakeholder to review the World Bank
+            sponsored Livestock project by the Nigerian Federal Ministry of
+            Agriculture and Rural Development (FMARD).
           </p>
           <p class="text-white">
             <q-icon
@@ -422,9 +444,9 @@
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
-            Anchored ruminant fattening and pig production as an economic empowerment enterprise 
-            for Zango Kataf Local Government, Kaduna.
-          </p>                                                  
+            Anchored ruminant fattening and pig production as an economic
+            empowerment enterprise for Zango Kataf Local Government, Kaduna.
+          </p>
 
           <q-btn
             @click="$router.push('/project')"
@@ -457,7 +479,7 @@
             label="Get Started"
           />
         </div>
-        <div class="row">
+        <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
@@ -526,14 +548,25 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-grey-6">
+        <div class="text-caption text-center text-grey-6">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
-        <div class="text-caption text-grey-6">
-          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+        <div class="text-caption text-center text-grey-6">
+          By Greysoft© Technologies.
+        </div>
+        <div class="text-caption text-center text-grey-6">
+          <q-btn
+            class="q-mt-sm text-primary text-center"
+            no-caps
+            small
+            outline
+            icon="mail"
+            type="a"
+            href="https://www.nomavart.com:2096/"
+            target="_blank"
+          >
             <span class="q-pl-sm">Check Mail</span>
-          </q-btn> 
+          </q-btn>
         </div>
       </div>
     </section>
@@ -550,13 +583,13 @@ export default {
       b: false,
       c: false,
       d: false,
-      e: false,
-    },
+      e: false
+    }
   }),
   methods: {
     isViewableNow(isVisible, entry, section) {
       this.showAnimationFor[section] = isVisible;
-    },
+    }
   },
   computed: {
     screenRatioHeading() {
@@ -564,8 +597,8 @@ export default {
       if (size == "md" || size == "lg" || size == "xl") {
         return "text-h4";
       } else return "text-h5";
-    },
-  },
+    }
+  }
 };
 </script>
 

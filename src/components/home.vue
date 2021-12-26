@@ -1,17 +1,19 @@
 <template>
   <div>
     <header class="custom__header-bg row justify-start items-center q-px-xl">
-      <div class="col-md-6 col-sm-12 col-xs-12">
+      <div class="col-md-12 col-sm-12 col-xs-12 container">
         <h1
           class="text-white my-font-poppins-extraBold"
           :class="screenRatioHeading"
         >
-          At Nomavart, we are driven by the wealth that our projects bring to
-          the local communities and to our clients.
+          At Nomavart, we are driven by <br />
+          the wealth that our projects bring to the local <br />
+          communities and to our clients.
         </h1>
         <h3 class="text-subtitle1 text-primary my-font-poppins-regular gt-sm">
-          From project inception we already feel connected to the community and
-          the environment in which the project is about to be placed.
+          From project inception we already feel connected <br />
+          to the community and the environment <br />
+          in which the project is about to be placed.
         </h3>
         <q-btn
           @click="$router.push('/about')"
@@ -20,12 +22,12 @@
           flat
           rounded
           size="large"
-          class="text-primary bg-white my-font-poppins-light"
+          class="text-primary bg-white q-i my-font-poppins-light"
           icon-right="ion-arrow-round-forward"
           label="Get Started Now"
         />
       </div>
-      <div class="col-md-6 col-sm-12 col-xs-12">
+      <!-- <div class="col-md-6 col-sm-12 col-xs-12">
         <q-carousel
           animated
           v-model="slide"
@@ -43,41 +45,28 @@
           <q-carousel-slide :name="3" img-src="/images/slide3.jpg" />
           <q-carousel-slide :name="4" img-src="/images/slide4.jpg" />
         </q-carousel>
-        <!-- <q-img height="400px" src="/images/1cow.svg" contain></q-img> -->
-      </div>
+        <q-img height="400px" src="/images/1cow.svg" contain></q-img>
+      </div> -->
     </header>
     <section class="bg-secondary">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="my-card bg-secondary">
-            <q-card-section class="q-py-xl text-left">
-              <q-icon
-                color="primary"
-                name="ion-rocket"
-                style="font-size: 4em"
-              />
-              <div class="text-body1 text-white my-font-poppins-bold">
-                Mission
-              </div>
-              <div class="text-subtitle2 text-white my-font-poppins-light">
-                Create an effective symbiotic relationship between crop and
-                livestock farming within rural communities.
-              </div>
-            </q-card-section>
-          </q-card>
-        </div>
+      <div class="row container">
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card bg-primary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
-                color="secondary"
+                class="wid text-center q-mb-xl"
+                color="secondary "
                 name="ion-glasses"
-                style="font-size: 4em"
+                style="font-size: 5em"
               />
-              <div class="text-body1 text-white my-font-poppins-bold">
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
                 Vision
               </div>
-              <div class="text-subtitle2 text-white my-font-poppins-light">
+              <div
+                class="text-subtitle2 text-center text-white my-font-poppins-light"
+              >
                 To have a global standard platform for integrated rural farming
                 system.
               </div>
@@ -88,15 +77,44 @@
           <q-card class="my-card bg-secondary">
             <q-card-section class="q-py-xl text-left">
               <q-icon
-                color="primary"
-                name="ion-checkmark-circle-outline"
-                style="font-size: 4em"
+                class="wid text-center q-mb-xl"
+                color="primary "
+                name="ion-rocket"
+                style="font-size: 5em"
               />
-              <div class="text-body1 text-white my-font-poppins-bold">
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
+                Mission
+              </div>
+              <div
+                class="text-subtitle2 text-center text-white my-font-poppins-light"
+              >
+                Create an effective symbiotic relationship between crop and
+                livestock farming within rural communities.
+              </div>
+            </q-card-section>
+          </q-card>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+          <q-card class="my-card bg-secondary">
+            <q-card-section class="q-py-xl text-left">
+              <q-icon
+                class="wid text-center q-mb-xl"
+                color="primary "
+                name="ion-checkmark-circle-outline"
+                style="font-size: 5em"
+              />
+              <div
+                class="text-body1 text-center text-white my-font-poppins-bold"
+              >
                 Core Values: (TIE)
               </div>
               <div class="text-subtitle2 text-white my-font-poppins-light">
-                <div class="text-subtitle2 text-white my-font-poppins-light">
+                <div
+                  class="text-subtitle2 text-center text-white my-font-poppins-light"
+                >
                   Teamwork, <br />
                   Integrity &
                   <br />
@@ -110,9 +128,11 @@
     </section>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">About Nomavart</span>
+        <span class="my-font-poppins-bold text-white under"
+          >About Nomavart</span
+        >
       </p>
-      <p class="text-center q-px-xl">
+      <p class="text-center container q-px-xl">
         <span class="my-font-poppins-light text-white"
           >Established in 1999, Nomavart is a dynamic agricultural company of
           qualified and experienced crop and Livestock Farmers registered under
@@ -123,14 +143,14 @@
           system in each rural community.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row cen container q-mt-sm">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-img height="400px" src="/images/ayok.jpg" contain></q-img>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <p class="text-h6 my-font-poppins-light text-primary">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl q-mb-xl">
+          <!-- <p class="text-h6 my-font-poppins-light text-primary">
             Getting to know us
-          </p>
+          </p> -->
           <p
             class="
               text-h4
@@ -163,9 +183,9 @@
     </section>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Core Team</span>
+        <span class="my-font-poppins-bold text-white ">Core Team</span>
       </p>
-      <p class="text-center q-px-xl">
+      <p class="text-center q-px-xl container">
         <span class="my-font-poppins-light text-white">
           Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
@@ -178,7 +198,7 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row container q-mt-sm">
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-secondary">
             <q-img contain height="200px" src="/images/ayok.jpg" />
@@ -243,9 +263,9 @@
     </section>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Core Services</span>
+        <span class="my-font-poppins-bold text-white under">Core Services</span>
       </p>
-      <p class="text-center q-px-xl">
+      <p class="text-center p-width q-my-lg q-px-xl">
         <span class="my-font-poppins-light text-white">
           Our core competence is in livestock value chain and our team of
           professionals with over 15-25 years’ experience are fully involved in
@@ -255,7 +275,7 @@
           Fresh) Vom Jos, Obudu Cattle Ranch etc.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row container q-mt-sm">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/header4.jpg" contain></q-img>
         </div>
@@ -272,6 +292,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -280,6 +301,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -288,6 +310,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -297,6 +320,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -305,6 +329,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -313,11 +338,16 @@
           </p>
         </div>
       </div>
-      <div class="row q-mt-sm">
+      <div class="row container q-mt-sm">
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-md q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card hey bg-secondary">
             <q-card-section class="q-py-xl text-center">
-              <q-icon color="primary" name="ion-cog" style="font-size: 3em" />
+              <q-icon
+                class="q-mb-lg"
+                color="primary"
+                name="ion-cog"
+                style="font-size: 3em"
+              />
               <div class="text-body1 text-white my-font-poppins-bold">
                 Operations & Management of Agriculture Farms
               </div>
@@ -329,9 +359,14 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-md q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card hey bg-secondary">
             <q-card-section class="q-py-xl text-center">
-              <q-icon color="primary" name="ion-apps" style="font-size: 3em" />
+              <q-icon
+                class="q-mb-lg"
+                color="primary"
+                name="ion-apps"
+                style="font-size: 3em"
+              />
               <div class="text-body1 text-white my-font-poppins-bold">
                 Industrial Facilities and Logistic Centers
               </div>
@@ -345,9 +380,10 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-md q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card hey bg-secondary">
             <q-card-section class="q-py-xl text-center">
               <q-icon
+                class="q-mb-lg"
                 color="primary"
                 name="ion-locate"
                 style="font-size: 3em"
@@ -364,9 +400,10 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-md q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card hey bg-secondary">
             <q-card-section class="q-py-xl text-center">
               <q-icon
+                class="q-mb-lg"
                 color="primary"
                 name="ion-school"
                 style="font-size: 3em"
@@ -386,7 +423,9 @@
     </section>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Range of Products</span>
+        <span class="my-font-poppins-bold text-white under"
+          >Range of Products</span
+        >
       </p>
       <p class="text-center q-px-xl">
         <span class="my-font-poppins-light text-white">
@@ -396,7 +435,7 @@
           in any of the products value chain.
         </span>
       </p>
-      <div class="row q-mt-sm">
+      <div class="row container q-mt-sm">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <p
             class="
@@ -410,6 +449,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -418,6 +458,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -426,6 +467,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -434,6 +476,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -454,6 +497,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -462,6 +506,7 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
@@ -470,12 +515,13 @@
           </p>
           <p class="text-white">
             <q-icon
+              class="for"
               color="primary"
               name="ion-checkmark-circle-outline"
               style="font-size: 2em"
             />
             Soybeans.
-          </p>          
+          </p>
         </div>
       </div>
     </section>
@@ -499,7 +545,7 @@
             label="Get Started"
           />
         </div>
-        <div class="row">
+        <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
@@ -537,7 +583,11 @@
             <div class="text-body1 text-bold my-font">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-facebook" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-facebook"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -546,7 +596,11 @@
               >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-linkedin"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -568,14 +622,25 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-grey-6">
+        <div class="text-caption text-center text-grey-6">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-grey-6">By Greysoft© Technologies.</div>
-        <div class="text-caption text-grey-6">
-          <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://www.nomavart.com:2096/" target="_blank">
+        <div class="text-caption text-center text-grey-6">
+          By Greysoft© Technologies.
+        </div>
+        <div class="text-caption text-center text-grey-6">
+          <q-btn
+            class="q-mt-sm text-primary"
+            no-caps
+            small
+            outline
+            icon="mail"
+            type="a"
+            href="https://www.nomavart.com:2096/"
+            target="_blank"
+          >
             <span class="q-pl-sm">Check Mail</span>
-          </q-btn> 
+          </q-btn>
         </div>
       </div>
     </section>
@@ -583,21 +648,29 @@
 </template>
 
 <script>
-import { useMeta } from 'quasar'
+import { useMeta } from "quasar";
 
 const metaData = {
   // sets document title
-  title: 'Index Page',
+  title: "Index Page",
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   titleTemplate: title => `${title} - Nomavart`,
 
   // meta tags
   meta: {
-    description: { name: 'description', content: 'Nomavart is a dynamic agricultural company of qualified and experienced crop and Livestock Farmers that collaborates with local populations, engaging them in provincial agricultural operations and projects to create job opportunities during projects while fostering integrated farming system in each rural community. ' },
-    keywords: { name: 'keywords', content: 'Nomavart, Iiliya Duniya, Ayok Celestine,  Livestock Nigeria, Agriculture, Agribusiness Nigeria' },
-    equiv: { 'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8' },
-  },
-}
+    description: {
+      name: "description",
+      content:
+        "Nomavart is a dynamic agricultural company of qualified and experienced crop and Livestock Farmers that collaborates with local populations, engaging them in provincial agricultural operations and projects to create job opportunities during projects while fostering integrated farming system in each rural community. "
+    },
+    keywords: {
+      name: "keywords",
+      content:
+        "Nomavart, Iiliya Duniya, Ayok Celestine,  Livestock Nigeria, Agriculture, Agribusiness Nigeria"
+    },
+    equiv: { "http-equiv": "Content-Type", content: "text/html; charset=UTF-8" }
+  }
+};
 export default {
   data: () => ({
     slide: 1,
@@ -606,13 +679,13 @@ export default {
       b: false,
       c: false,
       d: false,
-      e: false,
-    },
+      e: false
+    }
   }),
   methods: {
     isViewableNow(isVisible, entry, section) {
       this.showAnimationFor[section] = isVisible;
-    },
+    }
   },
   computed: {
     screenRatioHeading() {
@@ -620,8 +693,8 @@ export default {
       if (size == "md" || size == "lg" || size == "xl") {
         return "text-h4";
       } else return "text-h5";
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -638,11 +711,11 @@ export default {
       rgba(24, 28, 39, 0.9),
       rgba(24, 28, 39, 0.6)
     ),
-    url("/images/header1.jpg");
+    url("/images/header1.jpg"), no-repeat;
   // background: url("/images/greenplantdark.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  background-attachment: fixed;
   height: calc(100vh - 66px);
   width: 100%;
 }

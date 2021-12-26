@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header class="q-py-sm bg-white" :class="sizes">
-      <q-toolbar class="text-primary">
+      <q-toolbar class="text-primary container">
         <img
           src="/images/logo1.png"
           class="cursor-pointer q-mr-sm"
@@ -121,7 +121,7 @@ export default {
   name: "MainLayout",
   data() {
     return {
-      leftDrawerOpen: false,
+      leftDrawerOpen: false
     };
   },
   computed: {
@@ -130,8 +130,8 @@ export default {
       if (size == "md" || size == "lg" || size == "xl") {
         return "q-px-xl ";
       } else return "";
-    },
-  },
+    }
+  }
 };
 </script>
 
