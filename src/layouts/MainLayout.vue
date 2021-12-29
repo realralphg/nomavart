@@ -11,6 +11,7 @@
         <q-space />
         <q-tabs>
           <q-route-tab
+            
             label="Home"
             ripple
             no-caps

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero/>
     <section class="bg-secondary">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-white">About Nomavart</span>
@@ -574,7 +575,12 @@
 </template>
 
 <script>
+
+import Hero from './Hero.vue'
 export default {
+  components:{
+Hero
+  },
   data: () => ({
     slide: 1,
     slide1: "style",
