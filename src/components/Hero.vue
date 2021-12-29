@@ -1,12 +1,13 @@
 <template>
   <div class="hero">
-      <div class="det">
-          <h1 class="text-weight-bold text-white">About Us</h1>
-          <p style="font-size:1.4rem" class="text-center text-white q-pa-md">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quos labore tempora praesentium eveniet deleniti!</p>
-
-      </div>
-    
+    <div class="det">
+      <h1 class="text-weight-bold text-h2 text-white">About Us</h1>
+      <p style="font-size:1.2rem" class="text-center text-white q-pa-md">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+        quos labore tempora praesentium eveniet deleniti!
+      </p>
     </div>
+  </div>
 </template>
 
 <script>
@@ -18,7 +19,7 @@ export default {};
   background: url("/images/hero.png"), center center/cover no-repeat;
   /* background-attachment: fixed; */
   position: relative;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
 }
 .hero::before {
@@ -27,9 +28,9 @@ export default {};
   top: 0;
   right: 0;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background: #000;
-  opacity: .65;
+  opacity: 0.65;
   /* background: linear-gradient(
     173.89deg,
     #310026,
@@ -46,9 +47,8 @@ export default {};
   text-align: center;
 }
 
-.hero .det h1{
-    /* font-size: 2rem; */
-  margin-bottom: .55rem;
+.hero .det h1 {
+  /* font-size: 3rem; */
+  margin-bottom: 0rem;
 }
-
 </style>

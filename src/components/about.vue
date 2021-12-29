@@ -1,12 +1,18 @@
 <template>
   <div>
-    <Hero/>
-    <section class="bg-secondary">
-      <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">About Nomavart</span>
+    <Hero />
+    <section class="bg-white">
+      <p
+        style="font-size:2.5rem"
+        class="text-center q-pt-xl q-pb-sm"
+        :class="screenRatioHeading"
+      >
+        <span class="my-font-poppins-bold text-primary">About Nomavart</span>
       </p>
       <p class="text-center q-px-xl p-width">
-        <span class="my-font-poppins-light text-white p-width"
+        <span
+          style="font-size:1.2rem"
+          class="my-font-poppins-light  text-black p-width"
           >Established in 1999, Nomavart is a dynamic agricultural company of
           qualified and experienced crop and Livestock Farmers registered under
           the Companies and Allied Matters Decree of 1990 in Nigeria – RC No.
@@ -16,14 +22,14 @@
           system in each rural community.
         </span>
       </p>
-      <div class="row q-mt-sm container cen">
+      <!-- <div class="row q-mt-sm container cen">
         <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
           <q-img height="400px" src="/images/ayok.jpg" contain></q-img>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <!-- <p class="text-h6 my-font-poppins-light text-primary">
+          <p class="text-h6 my-font-poppins-light text-primary">
             Getting to know us
-          </p> -->
+          </p>
           <p
             class="
               text-h4
@@ -52,29 +58,90 @@
           </p>
           <p class="text-primary">Dr. Celestine Ayok</p>
         </div>
-      </div>
+      </div> -->
+
+      <section class=" q-mt-xl statement">
+        <!-- <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
+        <span class="my-font-poppins-bold text-white under"
+          >About Nomavart</span
+        >
+      </p>
+      <p class="text-center container q-px-xl">
+        <span class="my-font-poppins-light text-white"
+          >Established in 1999, Nomavart is a dynamic agricultural company of
+          qualified and experienced crop and Livestock Farmers registered under
+          the Companies and Allied Matters Decree of 1990 in Nigeria – RC No.
+          366346 Nomavart collaborates with local populations, engaging them in
+          provincial agricultural operations and projects by creating job
+          opportunities during projects while fostering integrated farming
+          system in each rural community.
+        </span>
+      </p> -->
+        <div class="row cen container q-mt-sm">
+          <div class="col-md-6 col-sm-12 col-xs-12 pad q-pt-xl q-px-xl">
+            <q-img class="" src="/images/ayok.jpg" cover></q-img>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 pad q-px-xl q-mb-xl">
+            <!-- <p class="text-h6 my-font-poppins-light text-primary">
+            Getting to know us
+          </p> -->
+            <div
+              style="font-size: 2.5em"
+              class="
+              text-h4
+              my-font-poppins-bold
+              custom__heading-green
+              text-white
+            "
+            >
+              Chairman's Statement
+            </div>
+            <p style="font-size: 1.2em" class="text-white">
+              At Nomavart, we are driven by the wealth that our projects bring
+              to the local communities and to our clients. From project
+              inception we already feel connected to the community and the
+              environment in which the project is about to be placed.
+            </p>
+            <p style="font-size: 1.2em" class="text-white">
+              We feel that besides the business, we are there for the people
+              that will benefit from the project, both directly and indirectly,
+              starting from our client and its personnel up to the service
+              suppliers and the consumers.
+            </p>
+            <p style="font-size: 1.2em" class="text-white">
+              This is why corporate social responsibility is always an unstated
+              key deliverable in all our projects.
+            </p>
+            <p style="font-size: 1.2em" class="text-white">
+              Dr. Celestine Ayok
+            </p>
+          </div>
+        </div>
+      </section>
     </section>
-    <section class="bg-secondary">
+    <section class="q-py-xl bgg">
       <div
         class="row container
       "
       >
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="my-card bg-primary">
+          <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
                 class="wid text-center q-mb-xl"
-                color="secondary"
+                color="primary"
                 name="ion-glasses"
                 style="font-size: 5em"
               />
               <div
-                class="text-body1 text-center text-white my-font-poppins-bold"
+                style="font-size: 2em"
+                class="text-body1 q-my-md text-center text-primary my-font-poppins-bold"
               >
                 Vision
               </div>
               <div
-                class="text-subtitle2 text-center text-white my-font-poppins-light"
+                style="font-size: 1.2em"
+                class="text-subtitle2 text-center text- black my-font-poppins-light"
               >
                 To have a global standard platform for integrated rural farming
                 system.
@@ -83,7 +150,7 @@
           </q-card>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
                 class="wid text-center q-mb-xl"
@@ -92,12 +159,14 @@
                 style="font-size: 5em"
               />
               <div
-                class="text-body1 text-center text-white my-font-poppins-bold"
+                style="font-size: 2em"
+                class="text-body1 text-center q-my-md text-primary my-font-poppins-bold"
               >
                 Mission
               </div>
               <div
-                class="text-subtitle2 text-center text-white my-font-poppins-light"
+                style="font-size: 1.2em"
+                class="text-subtitle2 text-center text-black my-font-poppins-light"
               >
                 Create an effective symbiotic relationship between crop and
                 livestock farming within rural communities.
@@ -107,7 +176,7 @@
         </div>
 
         <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="my-card bg-secondary">
+          <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
                 class="wid text-center q-mb-xl"
@@ -116,13 +185,17 @@
                 style="font-size: 5em"
               />
               <div
-                class="text-body1 text-center text-white my-font-poppins-bold"
+                style="font-size: 2em"
+                class="text-body1 text-center text-primary my-font-poppins-bold"
               >
                 Core Values: (TIE)
               </div>
-              <div class="text-subtitle2 text-white my-font-poppins-light">
+              <div
+                class="text-subtitle2 q-my-md text-black my-font-poppins-light"
+              >
                 <div
-                  class="text-subtitle2 text-center text-white my-font-poppins-light"
+                  style="font-size: 1.2em"
+                  class="text-subtitle2 text-center text-black my-font-poppins-light"
                 >
                   Teamwork, <br />
                   Integrity &
@@ -135,7 +208,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-secondary">
+    <section class="heuu">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-white"
           >Board Members and Consultants</span
@@ -154,20 +227,20 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <div class="row q-mt-lg container">
+      <div class="row q-mt-lg q-py-xl container">
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary hey">
-            <q-img contain height="200px" src="/images/ayok.jpg" />
+          <q-card class="bg-white q-pa-md hey">
+            <q-img cover src="/images/ayok.jpg" />
             <q-card-section>
               <div
-                class="text-body2 text-white text-center my-font-poppins-bold"
+                class="text-body2 text-positive text-center my-font-poppins-light"
               >
                 Dr. Celestine Ayok
               </div>
               <div
                 class="
-                  text-caption text-primary text-center
-                  my-font-poppins-light
+                  text-caption text-primary q-my-sm text-center
+                  my-font-poppins-bold
                 "
               >
                 Board Chairman with over 28 years in Livestock management
@@ -177,18 +250,18 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary hey">
-            <q-img contain height="200px" src="/images/bargo.jpg" />
+          <q-card class="bg-white q-pa-md hey">
+            <q-img cover src="/images/bargo.jpg" />
             <q-card-section>
               <div
-                class="text-body2 text-white text-center my-font-poppins-bold"
+                class="text-body2 q-my-sm text-positve text-center my-font-poppins-light"
               >
                 Engr. Iliya Duniya
               </div>
               <div
                 class="
                   text-caption text-primary text-center
-                  my-font-poppins-light
+                  my-font-poppins-bold
                 "
               >
                 Chief Executive Officer with over 39 years’ experience in Food,
@@ -198,18 +271,18 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary hey">
-            <q-img contain height="200px" src="/images/AliAngo.jpg" />
+          <q-card class="bg-white q-pa-md hey">
+            <q-img cover src="/images/AliAngo.jpg" />
             <q-card-section>
               <div
-                class="text-body2 text-white text-center my-font-poppins-bold"
+                class="text-body2 text-positive q-my-sm text-center my-font-poppins-light"
               >
                 Mr. Ali S. Ango
               </div>
               <div
                 class="
                   text-caption text-primary text-center
-                  my-font-poppins-light
+                  my-font-poppins-bold
                 "
               >
                 Director, Season accountant and Banker with vast experience in
@@ -219,18 +292,18 @@
           </q-card>
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
-          <q-card class="bg-secondary hey">
-            <q-img contain height="200px" src="/images/Natsa.jpg" />
+          <q-card class="bg-white q-pa-md hey">
+            <q-img cover src="/images/Natsa.jpg" />
             <q-card-section>
               <div
-                class="text-body2 text-white text-center my-font-poppins-bold"
+                class="text-body2 text-positive q-my-sm text-center my-font-poppins-light"
               >
                 Mr. Natsa Ishaya
               </div>
               <div
                 class="
                   text-caption text-primary text-center
-                  my-font-poppins-light
+                  my-font-poppins-bold
                 "
               >
                 Accountant with over 7 years of working experience in the
@@ -242,7 +315,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-secondary ">
+    <section class="bg-white q-pb-xl">
       <div class="row container cen q-pt-lg q-mb-xl">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
@@ -253,12 +326,12 @@
               text-h4
               my-font-poppins-bold
               custom__heading-green
-              text-white
+              text-primary
             "
           >
             Projects
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -266,7 +339,7 @@
             />
             GEMS 1 DFID (UKAID) 2013 -2015 FEED FINISHING CONSULTANT.
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -275,7 +348,7 @@
             COMMERCIAL AGRIC. DEVELOPMENT PROGRMME WORLD BANK ASST. (2013 -
             2014).
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -284,7 +357,7 @@
             SHEEP & GOAT VALUE CHAIN AGRIC. TRANSFORMATION AGENDA FEDERAL
             MINISTRY OF AGRICULTURE AND NATURAL RESOURCES ABUJA (2013 – 2015).
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -293,7 +366,7 @@
             IFDC ON SMALL HOLDER PERI URBAN DAIRY CATTLE PRODUCTION TRAINING
             (2013).
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -312,12 +385,12 @@
               text-h4
               my-font-poppins-bold
               custom__heading-green
-              text-white
+              text-primary
             "
           >
             Projects
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -326,7 +399,7 @@
             DFID (UKAID) DAIRY VALUE CHAIN BUSINESS INNOVATION FACILITY(BIF)
             (AUG 2015- DATE)
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -335,7 +408,7 @@
             LIVESTOCK PRODUCTION INTERVENTIONS AT PROPCOM MAIKARFI – PALLADIUM
             GROUP (DFID FUNDED) – SEPTEMBER, 2015 – JUNE 2018
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -344,7 +417,7 @@
             MEAT AND LEATHER INTERVENTION – PALLADIUM GROUP (GRM-GEMS1 – DFID
             FUNDED) – JANUARY 2011 – AUGUST 2015
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -370,13 +443,13 @@
               text-h4
               my-font-poppins-bold
               custom__heading-green
-              text-white
+              text-primary
             "
           >
             Projects
           </p>
 
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -385,7 +458,7 @@
             KADUNA STATE GOVERNMENT ON LIVESTOCK ACTIVITIES & GRAZING RESERVES
             IMPLEMENTATION (JUNE 2016 - DATE).
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -398,12 +471,12 @@
               text-h6
               my-font-poppins-bold
               custom__heading-green
-              text-white
+              text-black
             "
           >
             Other Experiences
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -411,7 +484,7 @@
             />
             Consultancy in Livestock development and general Agriculture.
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -419,7 +492,7 @@
             />
             Exotic Pig breeding and production.
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -429,7 +502,7 @@
             contribution covered the meat, poultry, piggery and dairy value
             chains.
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -439,7 +512,7 @@
             sponsored Livestock project by the Nigerian Federal Ministry of
             Agriculture and Rural Development (FMARD).
           </p>
-          <p class="text-white">
+          <p class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -462,7 +535,7 @@
       </div>
     </section>
     <!--Footer Section-->
-    <section class="bg-secondary">
+    <section class="bg-warning">
       <q-separator class="bg-grey-9 q-px-xl" />
       <div class="q-pa-xl text-white my-font-poppins-regular">
         <p class="text-h6 text-center my-font-poppins-bold">
@@ -482,6 +555,24 @@
         </div>
         <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <q-img class="imggs" src="/images/logog.png" cover></q-img>
+            <!-- <div class="text-body1 text-bold">About</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/')"
+            >
+              Home
+            </div>
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/about')"
+            >
+              About Us
+            </div> -->
+          </div>
+
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
@@ -496,11 +587,6 @@
             >
               About Us
             </div>
-          </div>
-
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-            <div class="text-body1 text-bold">Resources</div>
-            <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 q-mt-md cursor-pointer"
               @click="$router.push('/team')"
@@ -514,11 +600,15 @@
               Projects
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold my-font">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-facebook" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-facebook"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -527,7 +617,11 @@
               >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-linkedin"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -536,7 +630,7 @@
               >
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 typo1 text-bold my-font">Contact Info</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 typo1 q-mt-md">
@@ -549,15 +643,15 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           By Greysoft© Technologies.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           <q-btn
-            class="q-mt-sm text-primary text-center"
+            class="q-mt-sm text-primary"
             no-caps
             small
             outline
@@ -566,7 +660,7 @@
             href="https://www.nomavart.com:2096/"
             target="_blank"
           >
-            <span class="q-pl-sm">Check Mail</span>
+            <span class="q-pl-sm text-white">Check Mail</span>
           </q-btn>
         </div>
       </div>
@@ -575,11 +669,10 @@
 </template>
 
 <script>
-
-import Hero from './Hero.vue'
+import Hero from "./Hero.vue";
 export default {
-  components:{
-Hero
+  components: {
+    Hero
   },
   data: () => ({
     slide: 1,
@@ -609,6 +702,30 @@ Hero
 </script>
 
 <style lang="scss">
+.statement {
+  background: linear-gradient(180deg, #07a007 0%, #006633 71.84%);
+  padding-top: 1rem;
+}
+
+.bgg {
+  background: linear-gradient(180deg, #0a1129 0%, #19213c 100%) !important;
+  opacity: 0.95 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-blend-mode: overlay;
+  width: 100%;
+}
+.heuu {
+  background: url("/images/bg-ilu.png"),
+    linear-gradient(180deg, #0a1129 0%, #19213c 100%) !important;
+  opacity: 0.95 !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-blend-mode: overlay;
+  width: 100%;
+}
 .custom__header-bg-v1 {
   //   background-size: cover;
   //   background-attachment: fixed;
@@ -628,5 +745,27 @@ Hero
   content: " ";
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.imggs {
+  animation: zoom 2s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 0.55;
+    /* transform: scale(1); */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    /* transform: scale(1); */
+  }
 }
 </style>
