@@ -36,7 +36,7 @@
             animated
             v-model="slide"
             infinite
-            arrows
+            
             thumbnails
             transition-prev="slide-right"
             transition-next="slide-left"
@@ -550,11 +550,11 @@
         </div>
         <div class="col-md-6 range-right col-sm-12 col-xs-12 q-pa-xl">
           <div class="ima">
-            <img src="/images/goa.png" alt="" />
-            <img src="/images/goa.png" alt="" />
-            <img src="/images/goa.png" alt="" />
-            <img src="/images/goa.png" alt="" />
-            <img src="/images/goa.png" alt="" />
+            <img src="/images/chicken.jpg" alt="" />
+            <img src="/images/cow.jpg" alt="" />
+            <img src="/images/use.png" alt="" />
+            <img src="/images/goa2.png" alt="" />
+            <img src="/images/goat.jpg" alt="" />
             <img src="/images/goa.png" alt="" />
             <!-- <q-img class="imgg" src="/images/goa2.png" cover></q-img> -->
           </div>
@@ -674,7 +674,7 @@
         </div>
         <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-            <q-img class="imggs" src="/images/logog.png" cover></q-img>
+            <q-img class="imggss" src="/images/logog.png" cover></q-img>
             <!-- <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
@@ -1069,7 +1069,7 @@ export default {
   width: 100%;
 }
 
-.imggs {
+.imggss {
   animation: zoom 2s infinite;
   animation-delay: 2s;
 }
@@ -1140,7 +1140,7 @@ export default {
   }
 
   .head {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .bt {
     font-size: small !important;
@@ -1210,6 +1210,7 @@ export default {
     width: 100%;
     height: 200px;
     border-radius: 8px;
+    object-fit: cover !important;
   }
 }
 

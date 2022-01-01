@@ -45,7 +45,7 @@
           />
         </q-tabs>
         <div class="q-pa-sm lt-md">
-          <q-btn flat round dense icon="menu" class="q-mr-sm">
+          <q-btn flat round dense icon="menu" class="">
             <q-menu>
               <q-list>
                 <q-item clickable v-close-popup>

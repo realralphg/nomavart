@@ -5,8 +5,8 @@
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-dark" style="font-size: 3rem">Our Team</span>
       </p>
-      <p class="text-center p-width q-px-xl">
-        <span class="my-font-poppins-light text-black" style="font-size:1.2rem"
+      <p class="text-center p-width date q-px-xl">
+        <span class="my-font-poppins-light text-black" style="font-size:1.1rem"
           >Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
           and approach to work, engaging equally and efficiently to deliver the
@@ -39,7 +39,7 @@
         <div class="col-md-6 date cen col-sm-12 col-xs-12 q-pl-xl">
           <div class="dataa">
             <div>
-              <p style="font-size:2rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+              <p style="font-size:1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
                 Board Chairman
               </p>
               <p
@@ -55,7 +55,7 @@
             </div>
             <q-space></q-space>
             
-            <p style="font-size:1.2rem" class="text-black p-width text-justify">
+            <p style="font-size:1rem" class="text-black p-width text-justify">
             Celestine is a Veterinary Doctor of about 30 years’ experience in
             the livestock subsector. He is a graduate of Ahmadu Bello University
             Zaria and also obtained a post graduate Diploma in Dairy farm
@@ -111,7 +111,7 @@
             Kaduna, Producers Of Quality Dairy Blend Of Yogurt Marketed Within
             Most Cosmopolitan Cities In Nigeria.
           </p> -->
-          <p style="font-size:1.5rem"  class="text-white my-font-poppins-bold">
+          <p style="font-size:1.2rem"  class="text-white my-font-poppins-bold">
             Some Of The Programme And Activities Carried Out To Enhance
             Productivity Of Livestock Includes:
           </p>
@@ -122,7 +122,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Supplementary Feeding Of Small Ruminants Using Fodder Banks On
               Rotational Grazing And Tethering During Cropping Season, In A
               Small Holder Village Setting</span
@@ -135,7 +135,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Feeding Trials Using Crop Residues Like Sorghum, Maize And Millet
               And Treating Them With Urea /molasses And Their Effect On The
               Survivability Of Small Ruminants.
@@ -148,7 +148,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Use Of Post-harvest Roughages Like Groundnut/ Beans
               Haulms/leaves, And Some Browser Plants E.g. Gliricida, Leucena
               Luecocephala And Its Impact On The Productivity Of Cattle During
@@ -162,7 +162,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Fixing Rumen And Esophageal Fistulas On Cattle And Goats And Its
               Utilization In Degradability Studies Using The Nylon Bag
               Technique.
@@ -175,7 +175,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Establishment And Maintenance Of Fodder Banks, And Its
               Utilization By Both Small And Large Ruminants During The Cropping
               Season In Northern Nigeria
@@ -188,7 +188,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Managing Animal Herd Health Programme For Both On- Station And
               On-farm Project Animals.
             </span>
@@ -200,7 +200,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Study The Effect Of Fodder Banks On The Growth And Survival Rate
               Of West African Dwarf Goats Under Village Conditions In Sub-humid
               Nigeria (1991-1994).
@@ -213,7 +213,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Prevalence Of Coccidial Infections In West African Dwarf Goats In
               Sub-humid Zone Of Nigeria (nov.1990 - Aug. 1991).
             </span>
@@ -225,7 +225,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Determining Optimum Milk Yield For Sustainable Growth In Bunaji
               Catt le Herd Under Tradi t ional Management Systems And Fodder
               Bank Supplementation (july 1994- Nov.1996).
@@ -238,7 +238,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               On Farm, Wet Season Supplementation With Legume-grass Pasture For
               Dairy Production In Bunaji Cattle (july 1994 - June1996).
             </span>
@@ -250,7 +250,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Identification Of Economically Important Diseases Of Cattle In
               Peri-urban Dairy Systems And Quantification Of Its Benefits From
               These Control Measures. Economics Of Urea, Potash And Salt
@@ -268,7 +268,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Feeding And Management Strategies In Calves To Enhance Herd
               Replacement Rates In Small Holder Dairy Farming Systems.
             </span>
@@ -280,7 +280,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Maintenance Of Fodder Banks For Sustainable Grazing In A Small
               Holder Livestock Production System Sales And Distribution Of
               Dispharm Range Of Vet. Drugs & Biologicals In Northern Nigeria.
@@ -293,7 +293,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Setting Up And Implementation Of A Robust Herd Health Management
               Programme For Farms Within Northern Nigeria.
             </span>
@@ -305,7 +305,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Sub Consultant During The Setting Up Of Niyya Farm In Kaduna And
               Did Focus On The Upgrading Of Our Local Stock Through Cross
               Breeding With Exotic Bulls And Semen.
@@ -463,7 +463,7 @@
         <div class="col-md-6 col-sm-12 col-xs-12 q-py-lg">
           <div class="">
             <div>
-              <p style="font-size:1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+              <p style="font-size:1.2rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
                 Chief Executive Officer
               </p>
               <p
@@ -482,7 +482,7 @@
               
             </q-avatar> -->
           </div>
-          <p  style="font-size:1.1rem" class="text-black text-justify p-width">
+          <p  style="font-size:1rem" class="text-black text-justify p-width">
             Engr. Duniya has had a chequered working experience of over
             thirty-nine (39) years spanning the Food, Petroleum, Chemical &
             Agricultural Industries with a stint of teaching for one year in the
@@ -503,11 +503,11 @@
             established and maintains cordial relationships with stakeholders in
             all the areas he has worked.
           </p>
-          <p style="font-size:1.1rem" class="text-black text-justify">
+          <p style="font-size:1rem" class="text-black text-justify">
             Recently took a course on Climate Smart Agriculture to equip himself
             in factoring likely effects of climate change in new interventions.
           </p>
-          <p style="font-size:1.1rem" class="text-black text-justify">
+          <p style="font-size:1rem" class="text-black text-justify">
             In the 1000s+ IFDC Regional Project financed by USAID, Engr.
             Duniya's pioneering work as the first Cluster Adviser and country
             lead of the project, led to the establishment of 26 Clusters of
@@ -525,7 +525,7 @@
             in the field leading to synergistic collaborat ions through MOUs and
             gent leman' s understandings/collaborations.
           </p>
-          <p style="font-size:1.1rem" class="text-black text-justify">
+          <p style="font-size:1rem" class="text-black text-justify">
             He aanchored the successful implementation of the World Bank Funded
             MSME Project of IFDC where he served as Processing Specialist. He
             had earlier successfully implemented a Kaduna State Government
@@ -534,7 +534,7 @@
             letter of commendation from the State Government for prudent
             management of funds and dedication that led to financial savings.
           </p>
-          <p style="font-size:1.1rem" class="text-black text-justify">
+          <p style="font-size:1rem" class="text-black text-justify">
             He is a good manager of resources and can harness them towards
             achieving pre-determined targets at optimal costs. He is a good team
             player and can work under pressure alone or with others. He is also
@@ -546,7 +546,7 @@
         <div class="col-md-6 col-sm-12 date col-xs-12 q-pl-xl q-py-lg">
           <q-img class="members-img" src="/images/bargo.jpg"></q-img>
           
-          <p style="font-size: 1.1rem" class="text-black q-my-lg">
+          <p style="font-size: 1rem" class="text-black q-my-lg">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -683,7 +683,7 @@
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12 q-mt-lg date q-pl-lg">
             <div>
-              <p style="font-size:1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+              <p style="font-size:1.3rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
                 Finance Manager
               </p>
               <p
@@ -699,7 +699,7 @@
             </div>
             <q-space></q-space>
 
-            <p style="font-size:1.2rem" class="text-white text-justify">
+            <p style="font-size:1rem" class="text-white text-justify">
             As a trained professional accountant with over 20 years providing
             finance expertise in the private sector as well as international
             non-governmental agencies and organization, my success cut across
@@ -732,7 +732,7 @@
             
           </div>
           
-          <p style="font-size:1.5rem" class="text-white my-font-poppins-bold">KEY ACHIEVEMENTS:</p>
+          <p style="font-size:1.2rem" class="text-white my-font-poppins-bold">KEY ACHIEVEMENTS:</p>
           <p class="text-white">
             <q-icon
               color="primary"
@@ -740,7 +740,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Successfully established the Finance unit of LINKS programme
             </span>
           </p>
@@ -751,7 +751,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Recruited, train and mentor finance officers of the LINKS
               programme.
             </span>
@@ -763,7 +763,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Successfully Conducted Organizational Capacity Assessment (OCA)
               and Pre award Assessments for CBO's/Local NGOs in line USAID and
               DFID policies.
@@ -776,7 +776,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Ensured due diligence in selection of vendors for renovation of
               government health facilities, Partners for all sub agreement
               awards.
@@ -789,7 +789,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Instituted basic operational strategies that recovered over 40%
               of bad debt through the introduction of age analysis and constant
               debtor visitation.
@@ -802,7 +802,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"
+            <span style="font-size:1rem"
               >Established a 5 year project from inception to closeout where the
               project had A++ & A+ scores; and earned excellent recommendations
               from the organization – GEMS1 managed by Palladium Group.
@@ -815,7 +815,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"> 
+            <span style="font-size:1rem"> 
               Earned a letter of commendation for initiating field visits to
               partner organizations to ensure they got the right onsite
               guidance, couching on reporting, grant managements and
@@ -829,39 +829,39 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Built a strong grant management team within the shortest possible
               time to deliver quality result as required by the organization.
             </span>
           </p>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 date q-pl-xl">
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem"> 
+            <span style="font-size:1rem"> 
               Consistently Setup the accounts, grants and operations/ compliance
               units for new projects, tracked all office procurement in line
               with DFID and USAID rules and regulations.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span style="font-size:1.1rem">
+            <span style="font-size:1rem">
               Successfully restructured accounts units at state for a programme
               that is at stage of collapse.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -873,7 +873,7 @@
             LINKS Programme, DFID Funded Managed by Coffey International (Tetra
             Tech Group) October 1, 2019 to May 6, 2021
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -886,7 +886,7 @@
             Health Programme (MNCH2), DFID Funded, Managed by The Palladium
             Group (October 15, 2017 to May 31, 2019).
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -900,7 +900,7 @@
             Voices for Change programme: DFID Funded, Managed by The Palladium
             Group (October 3, 2015 to October 15, 2017).
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -914,7 +914,7 @@
             Growth and Employment in States – GEMS 1, Kano based. DFID Funded,
             Managed by The Palladium Group (March 2010 to September 2015).
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -926,7 +926,7 @@
             Children of Hope Project, USAID / EUCORD (2009 – 2010) based in
             Abuja.
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -939,7 +939,7 @@
             <br />
             FHI / GHAIN, USAID project (2005 - 2009) based in Kano.
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -950,7 +950,7 @@
             <br />
             DFID funded PropCom (2005) based in Abuja.
           </p>
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -980,7 +980,7 @@
 
         
         <div class="col-md-6 col-sm-12 col-xs-12">
-          <p style="font-size: 1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+          <p style="font-size: 1.4rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
             Extension Manager
           </p>
           <p
@@ -994,7 +994,7 @@
             HOSEA YAKUBU
           </p>
 
-          <p style="font-size: 1.2rem" class="text-black text-justify">
+          <p style="font-size: 1rem" class="text-black text-justify">
             International development professional with over Nine (9) years of
             professional experience facilitating and designing Monitoring and
             Evaluation (M&E) systems, program interventions, and private sector
@@ -1053,7 +1053,7 @@
           </p> -->
 
           
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1068,7 +1068,7 @@
             Tetra Tech International Development (formerly Coffey International
             Development).
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1081,7 +1081,7 @@
             67.55m programme focused on investment, innovation and business
             environment development.
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1095,7 +1095,7 @@
             <br />
             Palladium International Development Nigeria Ltd.
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1113,7 +1113,7 @@
             Environmental initiatives/Agricultural mechanization and Livestock
             production and Dairy value chains.
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1127,7 +1127,7 @@
             <br />
             Palladium International Development Nigeria Ltd
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1143,7 +1143,7 @@
             cook stoves.
           </p>
 
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1161,7 +1161,7 @@
         </div>
         <div class="col-md-6 col-sm-12 date col-xs-12 q-pl-xl">
           
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1177,7 +1177,7 @@
           </p>
 
           
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1189,7 +1189,7 @@
             </span>
           </p>
 
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1201,7 +1201,7 @@
               impact of interventions across 17 Northern states of Nigeria.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1213,7 +1213,7 @@
               entry templates and data capturing forms.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1225,7 +1225,7 @@
               and supervised Enumerators during data collection.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1237,7 +1237,7 @@
               from the field using MS Excel.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1249,7 +1249,7 @@
               and Research Managers.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1262,7 +1262,7 @@
               situations.
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1298,7 +1298,7 @@
 
           <div class="col-md-6 col-sm-12 q-mt-lg col-xs-12 date q-pl-xl">
             <div>
-              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.2rem" class="text-h6 my-font-poppins-light text-primary">
                 Extension Manager
               </p>
               <p
@@ -1313,7 +1313,7 @@
               </p>
               <q-space></q-space>
 
-              <p style="font-size: 1.2rem" class="text-white text-justify">
+              <p style="font-size: 1rem" class="text-white text-justify">
               Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced
               agricultural expert with years of experience working with
               individuals and organization in field of agricultural market
@@ -1347,7 +1347,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1360,7 +1360,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1373,7 +1373,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1387,7 +1387,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1400,7 +1400,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1413,7 +1413,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1427,7 +1427,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1440,7 +1440,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1453,7 +1453,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1466,7 +1466,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1480,7 +1480,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1493,7 +1493,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1506,7 +1506,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1523,7 +1523,7 @@
         <!-- Column TWO -->
         <div class="col-md-6 col-sm-12 date q-pl-xl col-xs-12">
           <!-- Job Heading -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1537,7 +1537,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1550,7 +1550,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1565,7 +1565,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1580,7 +1580,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1594,7 +1594,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1609,7 +1609,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1622,7 +1622,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1636,7 +1636,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1649,7 +1649,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1662,7 +1662,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1675,7 +1675,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1688,7 +1688,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p style="font-size: 1.1rem" class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1713,7 +1713,7 @@
         <div class="col-md-6 col-sm-12 col-xs-12">
           <div class="row cen q-pb-xl">
             <div>
-              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.2rem" class="text-h6 my-font-poppins-light text-primary">
                 Business Development Officer
               </p>
               <p
@@ -1732,7 +1732,7 @@
             <q-img class="jerry" src="/images/Jerry.jpg"></q-img>
             
           </div>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1743,7 +1743,7 @@
               [2020] Nomavart Nigeria Limited Kaduna State, Kaduna
             </span>
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1757,7 +1757,7 @@
             <br />
             Consultant (Extension Expert)
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1771,7 +1771,7 @@
             <br />
             Consultant (Cattle Expert)
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1786,7 +1786,7 @@
             Business Development Coordinator – Feed Finishing (Small and Large
             Ruminants) and Skin Quality Initiatives
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1800,7 +1800,7 @@
             <br />
             Administrative and Finance Officer (Operations)
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1814,7 +1814,7 @@
             <br />
             Media Monitor
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1833,7 +1833,7 @@
         <div class="col-md-6 col-sm-12 col-xs-12 date q-pl-xl">
           <div class="row cen q-pb-xl">
             <div>
-              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.2rem" class="text-h6 my-font-poppins-light text-primary">
                 Business Development Officer
               </p>
               <p
@@ -1852,7 +1852,7 @@
             <q-img  src="/images/Habibu.jpg" class="zaka"></q-img>
           
           </div>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1863,7 +1863,7 @@
             <br />
             2015 - Date
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1876,7 +1876,7 @@
             <br />
             2020 - 2021
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1889,7 +1889,7 @@
             <br />
             2020 - Date
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1902,7 +1902,7 @@
             <br />
             2015 - 2017
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1915,7 +1915,7 @@
             <br />
             2013 - 2015
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1925,7 +1925,7 @@
             <span class="my-font-poppins-bold"> IFDC, Mir Plus Project. </span>
             <br />2010 - 2013
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1938,7 +1938,7 @@
             <br />
             2007 - 2010
           </p>
-          <p style="font-size: 1.1rem" class="text-black">
+          <p style="font-size: 1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"

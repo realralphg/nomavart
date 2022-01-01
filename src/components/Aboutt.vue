@@ -20,9 +20,10 @@
           dolorem.
         </h4> -->
         <p style="font-size: 1.2em" class="text-subtitle2 about__description my-font-poppins-light q-mb-md">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut optio
-          iste dignissimos eos ab a! Reiciendis, veniam. Veritatis, laudantium
-          rerum.
+          Established in 1999, Nomavart is a dynamic agricultural 
+          company of qualified and experienced crop and Livestock 
+          Farmers registered under the Companies and Allied 
+          Matters Decree of 1990 in Nigeria.
         </p>
         <q-btn class="bg-p q-px-lg q-py-sm  text-white button"
           >More About Us</q-btn

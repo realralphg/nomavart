@@ -3,10 +3,10 @@
     <div class="bg-dark q-pa-md"></div>
     <div class="det bg-white q-py-xl">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span style="font-size:3rem" class="my-font-poppins-bold text-dark">Projects</span>
+        <span style="font-size:2rem" class="my-font-poppins-bold text-dark">Projects</span>
       </p>
-      <p class="text-center q-px-xl">
-        <span class="my-font-poppins-light text-black" style="font-size:1.2rem"
+      <p class="text-center date q-px-xl">
+        <span class="my-font-poppins-light text-black" style="font-size:1.1rem"
           >Our team has executed the following projects:
         </span>
       </p>
@@ -17,7 +17,7 @@
         <div class="col-md-6 col-sm-12 col-xs-12 date q-pa-xl">
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -32,7 +32,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -48,7 +48,7 @@
 
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -61,7 +61,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -179,7 +179,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -193,7 +193,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -278,7 +278,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -293,7 +293,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -414,7 +414,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -428,7 +428,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -460,7 +460,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -475,7 +475,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -519,7 +519,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -533,7 +533,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white text-justify">
             <q-icon
               color="primary"
@@ -553,7 +553,7 @@
               the dairy value chain.</span
             >
           </p>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">General Objective:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">General Objective:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -569,7 +569,7 @@
               enterprises.</span
             >
           </p>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -631,7 +631,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -645,7 +645,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -710,7 +710,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -724,7 +724,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -811,7 +811,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -827,7 +827,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -946,7 +946,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -959,7 +959,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -1030,7 +1030,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -1044,7 +1044,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -1069,7 +1069,7 @@
               Kachia, Gayam, Damau and Kagarko reserves.</span
             >
           </p>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
@@ -1153,7 +1153,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p style="font-size: 1.1rem"
+              <p style="font-size: 1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -1166,7 +1166,7 @@
               </p>
             </div>
           </div>
-          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white my-font-poppins-bold">Description of work:</p>
           <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"

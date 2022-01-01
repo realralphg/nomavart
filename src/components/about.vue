@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <section class="q-pt-lg q-pb-xl bg-white">
+    <section class="q-pt-lg bg-white">
       <p
         style="font-size:2.5rem"
         class="text-center q-pt-xl q-pb-sm"
@@ -9,7 +9,7 @@
       >
         <span class="my-font-poppins-bold text-primary">About Nomavart</span>
       </p>
-      <p class="text-center q-px-xl p-width">
+      <p class="text-center q-px-sm p-width">
         <span
           style="font-size:1.2rem"
           class="my-font-poppins-light  text-black p-width"
@@ -124,7 +124,7 @@
         class="row container
       "
       >
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 date q-px-xl q-my-lg q-py-lg">
           <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -149,7 +149,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 date q-my-lg q-px-xl q-py-lg">
           <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -175,7 +175,7 @@
           </q-card>
         </div>
 
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 date col-xs-12 q-my-lg q-px-xl q-py-lg">
           <q-card class="my-card bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -214,7 +214,7 @@
           >Board Members and Consultants</span
         >
       </p>
-      <p class="text-center p-width q-px-xl">
+      <p class="text-center p-width  q-px-sm">
         <span class="my-font-poppins-light p-width text-white">
           Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
@@ -228,7 +228,7 @@
         </span>
       </p>
       <div class="row q-mt-lg q-py-xl container">
-        <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl date q-py-md">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/ayok.jpg" />
             <q-card-section>
@@ -249,7 +249,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 q-my-lg date q-px-xl">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/bargo.jpg" />
             <q-card-section>
@@ -270,7 +270,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 q-my-lg date q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/AliAngo.jpg" />
             <q-card-section>
@@ -291,7 +291,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 date q-my-lg q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/Natsa.jpg" />
             <q-card-section>
@@ -315,12 +315,12 @@
         </div>
       </div>
     </section>
-    <section class="bg-white q-pb-xl">
+    <section class="bg-white pas q-pb-xl">
       <div class="row container flexx cen q-pt-lg q-mb-xl">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-px-xl">
+          <q-img width="100%" height="100%" src="/images/chicken.jpg" cover></q-img>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-px-xl">
           <p
             class="
               text-h4
@@ -379,7 +379,7 @@
         </div>
       </div>
       <div class="row q-mb-xl q-mt-xl cen container">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-px-xl">
           <p
             class="
               text-h4
@@ -429,15 +429,15 @@
             2006 – DECEMBER 2010
           </p>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <q-img height="400px" src="/images/goat.jpg" contain></q-img>
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-px-xl">
+          <q-img width="100%" height="100%" src="/images/goat.jpg" cover></q-img>
         </div>
       </div>
       <div class="row flexx  cen q-mt-sm container">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
-          <q-img height="400px" src="/images/cow.jpg" contain></q-img>
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-px-xl">
+          <q-img width="100%" height="100%" src="/images/cow.jpg" cover></q-img>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-px-xl">
           <p
             class="
               text-h4
@@ -527,7 +527,7 @@
             no-caps
             outline
             flat
-            class="text-white bg-primary q-mr-md q-ma-sm"
+            class="text-white bg-primary q-mb-lg q-mr-md"
             icon-right="arrow_right"
             label="Read More"
           />
@@ -707,7 +707,9 @@ export default {
   padding-top: 1rem;
   margin-top: 4rem;
 }
-
+.pas{
+  padding-bottom: 48px  !important;
+}
 .bgg {
   background: linear-gradient(180deg, #0a1129 0%, #19213c 100%) !important;
   opacity: 0.95 !important;
