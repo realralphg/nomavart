@@ -45,6 +45,10 @@ background-size: cover !important;
 background-position: center !important;
 background-blend-mode: overlay;
 width: 100%;
+box-shadow: 0px 15px 20px -1px rgba(51, 204, 51, .75);
+-webkit-box-shadow: 0px 15px 20px -1px rgba(51, 204, 51, .75);
+-moz-box-shadow:0px 15px 20px -1px rgba(51, 204, 51, .75);
+
 }
 
 .newsletter{

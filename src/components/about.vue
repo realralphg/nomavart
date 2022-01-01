@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <section class="bg-white">
+    <section class="q-pt-lg q-pb-xl bg-white">
       <p
         style="font-size:2.5rem"
         class="text-center q-pt-xl q-pb-sm"
@@ -60,7 +60,7 @@
         </div>
       </div> -->
 
-      <section class=" q-mt-xl statement">
+      <section class="  statement">
         <!-- <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span class="my-font-poppins-bold text-white under"
           >About Nomavart</span
@@ -78,10 +78,10 @@
         </span>
       </p> -->
         <div class="row cen container q-mt-sm">
-          <div class="col-md-6 col-sm-12 col-xs-12 pad q-pt-xl q-px-xl">
+          <div class="col-md-6 col-sm-12 col-xs-12 pad q-pt-xl date q-px-xl">
             <q-img class="" src="/images/ayok.jpg" cover></q-img>
           </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 pad q-px-xl q-mb-xl">
+          <div class="col-md-6 col-sm-12 col-xs-12 pad q-px-xl q-mt-lg date q-mb-xl">
             <!-- <p class="text-h6 my-font-poppins-light text-primary">
             Getting to know us
           </p> -->
@@ -230,7 +230,7 @@
       <div class="row q-mt-lg q-py-xl container">
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
-            <q-img cover src="/images/ayok.jpg" />
+            <q-img class="board-img" cover src="/images/ayok.jpg" />
             <q-card-section>
               <div
                 class="text-body2 text-positive text-center my-font-poppins-light"
@@ -251,7 +251,7 @@
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
-            <q-img cover src="/images/bargo.jpg" />
+            <q-img class="board-img" cover src="/images/bargo.jpg" />
             <q-card-section>
               <div
                 class="text-body2 q-my-sm text-positve text-center my-font-poppins-light"
@@ -272,7 +272,7 @@
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
-            <q-img cover src="/images/AliAngo.jpg" />
+            <q-img class="board-img" cover src="/images/AliAngo.jpg" />
             <q-card-section>
               <div
                 class="text-body2 text-positive q-my-sm text-center my-font-poppins-light"
@@ -293,7 +293,7 @@
         </div>
         <div class="col-md-3 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
-            <q-img cover src="/images/Natsa.jpg" />
+            <q-img class="board-img" cover src="/images/Natsa.jpg" />
             <q-card-section>
               <div
                 class="text-body2 text-positive q-my-sm text-center my-font-poppins-light"
@@ -316,7 +316,7 @@
       </div>
     </section>
     <section class="bg-white q-pb-xl">
-      <div class="row container cen q-pt-lg q-mb-xl">
+      <div class="row container flexx cen q-pt-lg q-mb-xl">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/chicken.jpg" contain></q-img>
         </div>
@@ -433,7 +433,7 @@
           <q-img height="400px" src="/images/goat.jpg" contain></q-img>
         </div>
       </div>
-      <div class="row cen q-mt-sm container">
+      <div class="row flexx  cen q-mt-sm container">
         <div class="col-md-6 col-sm-12 col-xs-12 q-px-xl">
           <q-img height="400px" src="/images/cow.jpg" contain></q-img>
         </div>
@@ -705,6 +705,7 @@ export default {
 .statement {
   background: linear-gradient(180deg, #07a007 0%, #006633 71.84%);
   padding-top: 1rem;
+  margin-top: 4rem;
 }
 
 .bgg {
@@ -752,6 +753,10 @@ export default {
   animation-delay: 2s;
 }
 
+.board-img{
+  height: 250px !important;
+}
+
 @keyframes zoom {
   0% {
     transform: scale(1);
@@ -766,6 +771,21 @@ export default {
     transform: scale(1);
     opacity: 1;
     /* transform: scale(1); */
+  }
+}
+
+@media(max-width:800px){
+  .date{
+    padding: 0 !important;
+  }
+
+  .flexx{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hey{
+    min-height: 300px !important;
   }
 }
 </style>

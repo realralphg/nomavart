@@ -23,8 +23,8 @@ export default {
   /* position: relative; */
 }
 .hey {
-  min-height: 370px !important;
-  min-width: 250px;
+  min-height: 480px !important;
+  min-width: 270px;
   /* position: relative; */
 }
 
@@ -55,6 +55,10 @@ export default {
 .q-mt-xl {
   margin-top: 48px !important;
 }
+
+/* div{
+  padding-bottom: 0 !important;
+} */
 
 .q-mt-lg {
   margin-top: 24px !important;

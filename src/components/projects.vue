@@ -1,19 +1,23 @@
 <template>
   <div>
-    <section class="bg-secondary">
+    <div class="bg-dark q-pa-md"></div>
+    <div class="det bg-white q-py-xl">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Projects</span>
+        <span style="font-size:3rem" class="my-font-poppins-bold text-dark">Projects</span>
       </p>
       <p class="text-center q-px-xl">
-        <span class="my-font-poppins-light text-white"
+        <span class="my-font-poppins-light text-black" style="font-size:1.2rem"
           >Our team has executed the following projects:
         </span>
       </p>
+    </div>
+    <section class=" q-py-xl bg-secondary">
+      
       <div class="row q-mt-sm container text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-pa-xl">
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -28,8 +32,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -44,7 +48,7 @@
 
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -57,8 +61,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -70,7 +74,7 @@
               Jigawa, Zamfara, Katsina and Kaduna.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -82,7 +86,7 @@
               intervening states.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -95,7 +99,7 @@
               work for the poor - M4P concept.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -109,7 +113,7 @@
               for ease of borrowing and access/linkage to market.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -122,7 +126,7 @@
               finishing.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -133,7 +137,7 @@
               >Importance of breed and age selection in feed finishing.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -145,7 +149,7 @@
               dewormers, acaricides etc.) prior to fattening.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -175,7 +179,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -189,8 +193,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -203,7 +207,7 @@
               Kaduna and Kano State.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -214,7 +218,7 @@
               >Herd health management, Feeds & feeding, milking & milk hygiene.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -227,7 +231,7 @@
               chain management.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -236,7 +240,7 @@
             />
             <span>Milk marketing systems. </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -245,7 +249,7 @@
             />
             <span>Capacity building in the dairy value chain. </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -274,7 +278,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -289,8 +293,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -306,7 +310,7 @@
               within the next 2 years.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -318,7 +322,7 @@
               cross breeding.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -332,7 +336,7 @@
               enterprise.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -344,7 +348,7 @@
               country through improve health management and feeding system.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -356,7 +360,7 @@
               the productivity index of the local breed.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -370,7 +374,7 @@
               livestock population.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -381,7 +385,7 @@
               >To create and open more market linkages to the farmers.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -410,7 +414,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -424,8 +428,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -456,7 +460,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -471,8 +475,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -484,7 +488,7 @@
               Procurement of the animals.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -515,7 +519,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -529,8 +533,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white text-justify">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white text-justify">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -549,8 +553,8 @@
               the dairy value chain.</span
             >
           </p>
-          <p class="text-white my-font-poppins-bold">General Objective:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">General Objective:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -565,8 +569,8 @@
               enterprises.</span
             >
           </p>
-          <p class="text-white my-font-poppins-bold">Specific Objective:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -575,7 +579,7 @@
             />
             <span>To strengthen milk production and collection system.</span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -587,7 +591,7 @@
               its market value.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -598,7 +602,7 @@
               To increase sales volume by enhancing the market share.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -623,11 +627,11 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-pa-xl">
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -641,8 +645,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -656,7 +660,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -673,7 +677,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -706,7 +710,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -720,8 +724,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -735,7 +739,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -750,7 +754,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -764,7 +768,7 @@
             >
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -778,7 +782,7 @@
             >
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -807,7 +811,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -823,8 +827,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -837,7 +841,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -847,7 +851,7 @@
             <span>Development of a training curriculum for target MSMEs. </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -861,7 +865,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -871,7 +875,7 @@
             <span>Networking collaborators and stakeholders. </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -881,7 +885,7 @@
             <span>Strategic launching of the 1000+ (ISFM) project. </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -897,7 +901,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -910,7 +914,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -942,7 +946,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -955,8 +959,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -971,7 +975,7 @@
               market.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -984,7 +988,7 @@
               feed finishing.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -997,7 +1001,7 @@
               locality.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1026,7 +1030,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -1040,8 +1044,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1053,7 +1057,7 @@
               Ministry of Agric. & forestry.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1065,8 +1069,8 @@
               Kachia, Gayam, Damau and Kagarko reserves.</span
             >
           </p>
-          <p class="text-white my-font-poppins-bold">Specific Objective:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Specific Objective:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1075,7 +1079,7 @@
             />
             <span>To increase production of good quality milk and meat.</span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1087,7 +1091,7 @@
               to bone ratio in feedlot production.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1096,7 +1100,7 @@
             />
             <span> Improvement in the health and fertility of ruminants.</span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1108,7 +1112,7 @@
               through good management and feeding.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1120,7 +1124,7 @@
               commercial hay making to reduce farmers/pastoralist conflicts.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1149,7 +1153,7 @@
           <q-separator class="bg-grey-9" />
           <div class="row">
             <div>
-              <p
+              <p style="font-size: 1.1rem"
                 class="
                   text-h6
                   my-font-poppins-bold
@@ -1162,8 +1166,8 @@
               </p>
             </div>
           </div>
-          <p class="text-white my-font-poppins-bold">Description of work:</p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white my-font-poppins-bold">Description of work:</p>
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1172,7 +1176,7 @@
             />
             <span>Oversee the implementation of Livestock value chain.</span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1184,7 +1188,7 @@
               beneficiaries in the anchor borrowers programme.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1196,7 +1200,7 @@
               chain.</span
             >
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-information-circle-outline"
@@ -1209,7 +1213,7 @@
             >
           </p>
 
-          <p
+          <p style="font-size: 1rem"
             class="
               text-h6
               my-font-poppins-bold
@@ -1219,7 +1223,7 @@
           >
             Other Experiences
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -1227,7 +1231,7 @@
             />
             Consultancy in Livestock development and general Agriculture.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -1235,7 +1239,7 @@
             />
             Exotic Pig breeding and production.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -1245,7 +1249,7 @@
             contribution covered the meat, poultry, piggery and dairy value
             chains.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -1255,7 +1259,7 @@
             sponsored Livestock project by the Nigerian Federal Ministry of
             Agriculture and Rural Development (FMARD).
           </p>
-          <p class="text-white">
+          <p style="font-size: 1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark-circle-outline"
@@ -1283,7 +1287,7 @@
       </div>
     </section>
     <!--Footer Section-->
-    <section class="bg-secondary">
+    <section class="bg-warning">
       <q-separator class="bg-grey-9 q-px-xl" />
       <div class="q-pa-xl text-white my-font-poppins-regular">
         <p class="text-h6 text-center my-font-poppins-bold">
@@ -1303,6 +1307,24 @@
         </div>
         <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <q-img class="imggs" src="/images/logog.png" cover></q-img>
+            <!-- <div class="text-body1 text-bold">About</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/')"
+            >
+              Home
+            </div>
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/about')"
+            >
+              About Us
+            </div> -->
+          </div>
+
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
@@ -1317,11 +1339,6 @@
             >
               About Us
             </div>
-          </div>
-
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-            <div class="text-body1 text-bold">Resources</div>
-            <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 q-mt-md cursor-pointer"
               @click="$router.push('/team')"
@@ -1335,11 +1352,15 @@
               Projects
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold my-font">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-facebook" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-facebook"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -1348,7 +1369,11 @@
               >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-linkedin"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -1357,7 +1382,7 @@
               >
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 typo1 text-bold my-font">Contact Info</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 typo1 q-mt-md">
@@ -1370,13 +1395,13 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           By Greysoft© Technologies.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           <q-btn
             class="q-mt-sm text-primary"
             no-caps
@@ -1387,7 +1412,7 @@
             href="https://www.nomavart.com:2096/"
             target="_blank"
           >
-            <span class="q-pl-sm">Check Mail</span>
+            <span class="q-pl-sm text-white">Check Mail</span>
           </q-btn>
         </div>
       </div>
@@ -1444,5 +1469,38 @@ export default {
   content: " ";
   margin-top: 10px;
   margin-bottom: 30px;
+}
+.imggs {
+  animation: zoom 2s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 0.55;
+    /* transform: scale(1); */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+}
+
+@media(max-width:800px){
+  .date{
+    padding: 0 !important;
+  }
+
+  .flexx{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
 }
 </style>

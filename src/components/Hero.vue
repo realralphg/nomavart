@@ -45,6 +45,7 @@ export default {};
   transform: translate(-50%, -50%);
   z-index: 3;
   text-align: center;
+  width: 100%;
 }
 
 .hero .det h1 {

@@ -1,11 +1,12 @@
 <template>
   <div>
-    <section class="bg-secondary">
+    <div class="bg-dark q-pa-md"></div>
+    <div class="det container q-py-xl">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
-        <span class="my-font-poppins-bold text-white">Core Team</span>
+        <span class="my-font-poppins-bold text-dark" style="font-size: 3rem">Our Team</span>
       </p>
       <p class="text-center p-width q-px-xl">
-        <span class="my-font-poppins-light text-white"
+        <span class="my-font-poppins-light text-black" style="font-size:1.2rem"
           >Our team is our most valuable asset. It consists of first-class
           professional managers and consultants. We have a “One Team” attitude
           and approach to work, engaging equally and efficiently to deliver the
@@ -17,10 +18,69 @@
           using full-time employees and professional consultants on call basis.
         </span>
       </p>
-      <!-- C E L E S T I N E  A Y O K -->
+    </div>
+    <div class="images-card container q-py-xl">
+      <q-img class="board-im" src="/images/ayok.jpg"></q-img>
+      <q-img class="board-im" src="/images/bargo.jpg"></q-img>
+      <q-img class="board-im" src="/images/buba.jpg"></q-img>
+      <q-img class="board-im" src="/images/Ezekiel.jpg"></q-img>
+      <q-img class="board-im" src="/images/Hosea.jpg"></q-img>
+
+      
+    </div>
+
+    <section class="section-chair">
       <div class="row container q-mt-lg text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 ">
+              
+          <q-img class="imggg" src="/images/ayok.jpg" cover></q-img>
+            
+        </div>
+        <div class="col-md-6 date cen col-sm-12 col-xs-12 q-pl-xl">
+          <div class="dataa">
+            <div>
+              <p style="font-size:2rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+                Board Chairman
+              </p>
+              <p
+                class="
+                  text-h6
+                  my-font-poppins-bold
+                  custom__heading-green
+                  text-black text-start
+                "
+              >
+                AYOK CELESTINE NACHE
+              </p>
+            </div>
+            <q-space></q-space>
+            
+            <p style="font-size:1.2rem" class="text-black p-width text-justify">
+            Celestine is a Veterinary Doctor of about 30 years’ experience in
+            the livestock subsector. He is a graduate of Ahmadu Bello University
+            Zaria and also obtained a post graduate Diploma in Dairy farm
+            management with a distinction in milk processing from PTC+ in the
+            Netherlands which is an affiliate of the University of Wageningen
+            Holland. He Is The Founder And Co-owner Of Spring Dairies Limited,
+            Kaduna, Producers Of Quality Dairy Blend Of Yogurt Marketed Within
+            Most Cosmopolitan Cities In Nigeria.
+            </p>
+
+            
+
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section class="">
+      
+      <!-- C E L E S T I N E  A Y O K -->
+      <div class="bg-secondary">
+        <div class="row pbb container pad text-justify">
+        <div class="col-md-6 q-py-lg col-sm-12 col-xs-12">
+          <!-- <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
                 Board Chairman
@@ -40,8 +100,8 @@
             <q-avatar square size="100px">
               <q-img height="auto" src="/images/ayok.jpg" contain></q-img>
             </q-avatar>
-          </div>
-          <p class="text-white p-width text-justify">
+          </div> -->
+          <!-- <p class="text-white p-width text-justify">
             Celestine is a Veterinary Doctor of about 30 years’ experience in
             the livestock subsector. He is a graduate of Ahmadu Bello University
             Zaria and also obtained a post graduate Diploma in Dairy farm
@@ -50,8 +110,8 @@
             Holland. He Is The Founder And Co-owner Of Spring Dairies Limited,
             Kaduna, Producers Of Quality Dairy Blend Of Yogurt Marketed Within
             Most Cosmopolitan Cities In Nigeria.
-          </p>
-          <p class="text-white my-font-poppins-bold">
+          </p> -->
+          <p style="font-size:1.5rem"  class="text-white my-font-poppins-bold">
             Some Of The Programme And Activities Carried Out To Enhance
             Productivity Of Livestock Includes:
           </p>
@@ -62,7 +122,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Supplementary Feeding Of Small Ruminants Using Fodder Banks On
               Rotational Grazing And Tethering During Cropping Season, In A
               Small Holder Village Setting</span
@@ -75,7 +135,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Feeding Trials Using Crop Residues Like Sorghum, Maize And Millet
               And Treating Them With Urea /molasses And Their Effect On The
               Survivability Of Small Ruminants.
@@ -88,7 +148,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Use Of Post-harvest Roughages Like Groundnut/ Beans
               Haulms/leaves, And Some Browser Plants E.g. Gliricida, Leucena
               Luecocephala And Its Impact On The Productivity Of Cattle During
@@ -102,7 +162,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Fixing Rumen And Esophageal Fistulas On Cattle And Goats And Its
               Utilization In Degradability Studies Using The Nylon Bag
               Technique.
@@ -115,7 +175,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Establishment And Maintenance Of Fodder Banks, And Its
               Utilization By Both Small And Large Ruminants During The Cropping
               Season In Northern Nigeria
@@ -128,7 +188,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Managing Animal Herd Health Programme For Both On- Station And
               On-farm Project Animals.
             </span>
@@ -140,7 +200,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Study The Effect Of Fodder Banks On The Growth And Survival Rate
               Of West African Dwarf Goats Under Village Conditions In Sub-humid
               Nigeria (1991-1994).
@@ -153,7 +213,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Prevalence Of Coccidial Infections In West African Dwarf Goats In
               Sub-humid Zone Of Nigeria (nov.1990 - Aug. 1991).
             </span>
@@ -165,7 +225,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Determining Optimum Milk Yield For Sustainable Growth In Bunaji
               Catt le Herd Under Tradi t ional Management Systems And Fodder
               Bank Supplementation (july 1994- Nov.1996).
@@ -178,7 +238,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               On Farm, Wet Season Supplementation With Legume-grass Pasture For
               Dairy Production In Bunaji Cattle (july 1994 - June1996).
             </span>
@@ -190,7 +250,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Identification Of Economically Important Diseases Of Cattle In
               Peri-urban Dairy Systems And Quantification Of Its Benefits From
               These Control Measures. Economics Of Urea, Potash And Salt
@@ -200,7 +260,7 @@
             </span>
           </p>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+        <div class="col-md-6 col-sm-12 date q-py-lg col-xs-12 q-pl-xl">
           <p class="text-white">
             <q-icon
               color="primary"
@@ -208,7 +268,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Feeding And Management Strategies In Calves To Enhance Herd
               Replacement Rates In Small Holder Dairy Farming Systems.
             </span>
@@ -220,7 +280,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Maintenance Of Fodder Banks For Sustainable Grazing In A Small
               Holder Livestock Production System Sales And Distribution Of
               Dispharm Range Of Vet. Drugs & Biologicals In Northern Nigeria.
@@ -233,7 +293,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Setting Up And Implementation Of A Robust Herd Health Management
               Programme For Farms Within Northern Nigeria.
             </span>
@@ -245,7 +305,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Sub Consultant During The Setting Up Of Niyya Farm In Kaduna And
               Did Focus On The Upgrading Of Our Local Stock Through Cross
               Breeding With Exotic Bulls And Semen.
@@ -392,15 +452,18 @@
             </span>
           </p>
         </div>
+        </div>
+
       </div>
+      
 
       <!-- I L I Y A  D U N I Y A -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row container q-mt-lg text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+      <div class="row pbb container bg-white q-mt-lg q-pb-xl text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-py-lg">
+          <div class="">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size:1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
                 Chief Executive Officer
               </p>
               <p
@@ -408,18 +471,18 @@
                   text-h6
                   my-font-poppins-bold
                   custom__heading-green
-                  text-white
+                  text-black
                 "
               >
                 ILIYA BAGRO DUNIYA
               </p>
             </div>
             <q-space></q-space>
-            <q-avatar square size="100px">
-              <q-img height="auto" src="/images/bargo.jpg" contain></q-img>
-            </q-avatar>
+            <!-- <q-avatar square size="100px">
+              
+            </q-avatar> -->
           </div>
-          <p class="text-white text-justify p-width">
+          <p  style="font-size:1.1rem" class="text-black text-justify p-width">
             Engr. Duniya has had a chequered working experience of over
             thirty-nine (39) years spanning the Food, Petroleum, Chemical &
             Agricultural Industries with a stint of teaching for one year in the
@@ -440,11 +503,11 @@
             established and maintains cordial relationships with stakeholders in
             all the areas he has worked.
           </p>
-          <p class="text-white text-justify">
+          <p style="font-size:1.1rem" class="text-black text-justify">
             Recently took a course on Climate Smart Agriculture to equip himself
             in factoring likely effects of climate change in new interventions.
           </p>
-          <p class="text-white text-justify">
+          <p style="font-size:1.1rem" class="text-black text-justify">
             In the 1000s+ IFDC Regional Project financed by USAID, Engr.
             Duniya's pioneering work as the first Cluster Adviser and country
             lead of the project, led to the establishment of 26 Clusters of
@@ -462,7 +525,7 @@
             in the field leading to synergistic collaborat ions through MOUs and
             gent leman' s understandings/collaborations.
           </p>
-          <p class="text-white text-justify">
+          <p style="font-size:1.1rem" class="text-black text-justify">
             He aanchored the successful implementation of the World Bank Funded
             MSME Project of IFDC where he served as Processing Specialist. He
             had earlier successfully implemented a Kaduna State Government
@@ -471,9 +534,7 @@
             letter of commendation from the State Government for prudent
             management of funds and dedication that led to financial savings.
           </p>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <p class="text-white text-justify">
+          <p style="font-size:1.1rem" class="text-black text-justify">
             He is a good manager of resources and can harness them towards
             achieving pre-determined targets at optimal costs. He is a good team
             player and can work under pressure alone or with others. He is also
@@ -481,14 +542,18 @@
             with Microsoft Office & Project and relates comfortably with both
             private and public officers at high levels.
           </p>
-          <p class="text-white">
+        </div>
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-pl-xl q-py-lg">
+          <q-img class="members-img" src="/images/bargo.jpg"></q-img>
+          
+          <p style="font-size: 1.1rem" class="text-black q-my-lg">
             <q-icon
               color="primary"
               name="ion-briefcase"
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span class="my-font-poppins-bold">
+            <span  class="my-font-poppins-bold">
               Palladium Group (Propcom Maikarfi – (DFID Funded))
             </span>
             <br />
@@ -496,7 +561,7 @@
             <br />
             Market Section Manager Livestock (MSM)
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -511,7 +576,7 @@
             <br />
             Intervention Manager
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -527,7 +592,7 @@
             <br />
             Processing Specialist/Cluster Advisor
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -545,7 +610,7 @@
             <br />
             Project Coordinator 1989 – 1998
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -560,7 +625,7 @@
             <br />
             General Manger/CEO
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -573,7 +638,7 @@
             <br />
             Lecturer 1
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -588,7 +653,7 @@
             <br />
             Process Manager
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -607,12 +672,18 @@
       </div>
 
       <!-- M O H A M M E D  Y U S U F -->
-      <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-lg container text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+      <!-- <q-separator class="bg-grey-9 q-px-xl q-mx-xl" /> -->
+      <div class="moha padd bg-secondary">
+        <div class="row q-mt-lg container text-justify">
+          <div class="col-md-6 col-sm-12 col-xs-12 ">
+            
+            <q-img class="moh" src="/images/buba.jpg"></q-img>
+            
+
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 q-mt-lg date q-pl-lg">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size:1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
                 Finance Manager
               </p>
               <p
@@ -627,11 +698,8 @@
               </p>
             </div>
             <q-space></q-space>
-            <q-avatar square size="100px">
-              <q-img height="auto" src="/images/buba.jpg" contain></q-img>
-            </q-avatar>
-          </div>
-          <p class="text-white text-justify">
+
+            <p style="font-size:1.2rem" class="text-white text-justify">
             As a trained professional accountant with over 20 years providing
             finance expertise in the private sector as well as international
             non-governmental agencies and organization, my success cut across
@@ -639,8 +707,32 @@
             trail, accurate financial and management reports to name a few. I
             also have professional experience in managing operations, grants and
             administration with various USAID and DFID funded programmes.
-          </p>
-          <p class="text-white my-font-poppins-bold">KEY ACHIEVEMENTS:</p>
+            </p>
+
+          </div>
+        </div>
+        <div class="row q-mt-lg q-pb-xl container text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12 q-py-md">
+          <div class="row">
+            <!-- <div>
+              <p class="text-h6 my-font-poppins-light text-primary">
+                Finance Manager
+              </p>
+              <p
+                class="
+                  text-h6
+                  my-font-poppins-bold
+                  custom__heading-green
+                  text-white
+                "
+              >
+                MOHAMMED YUSUF
+              </p>
+            </div> -->
+            
+          </div>
+          
+          <p style="font-size:1.5rem" class="text-white my-font-poppins-bold">KEY ACHIEVEMENTS:</p>
           <p class="text-white">
             <q-icon
               color="primary"
@@ -648,7 +740,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Successfully established the Finance unit of LINKS programme
             </span>
           </p>
@@ -659,7 +751,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Recruited, train and mentor finance officers of the LINKS
               programme.
             </span>
@@ -671,7 +763,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Successfully Conducted Organizational Capacity Assessment (OCA)
               and Pre award Assessments for CBO's/Local NGOs in line USAID and
               DFID policies.
@@ -684,7 +776,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Ensured due diligence in selection of vendors for renovation of
               government health facilities, Partners for all sub agreement
               awards.
@@ -697,7 +789,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Instituted basic operational strategies that recovered over 40%
               of bad debt through the introduction of age analysis and constant
               debtor visitation.
@@ -710,7 +802,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span
+            <span style="font-size:1.1rem"
               >Established a 5 year project from inception to closeout where the
               project had A++ & A+ scores; and earned excellent recommendations
               from the organization – GEMS1 managed by Palladium Group.
@@ -723,7 +815,7 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem"> 
               Earned a letter of commendation for initiating field visits to
               partner organizations to ensure they got the right onsite
               guidance, couching on reporting, grant managements and
@@ -737,39 +829,39 @@
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Built a strong grant management team within the shortest possible
               time to deliver quality result as required by the organization.
             </span>
           </p>
         </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <p class="text-white">
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-pl-xl">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem"> 
               Consistently Setup the accounts, grants and operations/ compliance
               units for new projects, tracked all office procurement in line
               with DFID and USAID rules and regulations.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
               style="font-size: 1.5em"
               class="q-mr-sm text-justify"
             />
-            <span>
+            <span style="font-size:1.1rem">
               Successfully restructured accounts units at state for a programme
               that is at stage of collapse.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -781,7 +873,7 @@
             LINKS Programme, DFID Funded Managed by Coffey International (Tetra
             Tech Group) October 1, 2019 to May 6, 2021
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -794,7 +886,7 @@
             Health Programme (MNCH2), DFID Funded, Managed by The Palladium
             Group (October 15, 2017 to May 31, 2019).
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -808,7 +900,7 @@
             Voices for Change programme: DFID Funded, Managed by The Palladium
             Group (October 3, 2015 to October 15, 2017).
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -822,7 +914,7 @@
             Growth and Employment in States – GEMS 1, Kano based. DFID Funded,
             Managed by The Palladium Group (March 2010 to September 2015).
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -834,7 +926,7 @@
             Children of Hope Project, USAID / EUCORD (2009 – 2010) based in
             Abuja.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -847,7 +939,7 @@
             <br />
             FHI / GHAIN, USAID project (2005 - 2009) based in Kano.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -858,7 +950,7 @@
             <br />
             DFID funded PropCom (2005) based in Abuja.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -873,13 +965,60 @@
             2005) Jigawa State.
           </p>
         </div>
+        </div>
+
       </div>
+      
 
       <!-- H O S E A   Y A K U B U -->
-      <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row container q-mt-lg text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+      <!-- <q-separator class="bg-grey-9 q-px-xl q-mx-xl" /> -->
+
+      
+
+      <div class="bg-s pbb">
+        <div class="row container q-py-lg q-mt-lg text-justify">
+
+        
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <p style="font-size: 1.7rem" class="text-h6 text-weight-bold my-font-poppins-light text-primary">
+            Extension Manager
+          </p>
+          <p
+            class="
+              text-h6
+              my-font-poppins-bold
+              custom__heading-green
+              text-black
+              "
+            >
+            HOSEA YAKUBU
+          </p>
+
+          <p style="font-size: 1.2rem" class="text-black text-justify">
+            International development professional with over Nine (9) years of
+            professional experience facilitating and designing Monitoring and
+            Evaluation (M&E) systems, program interventions, and private sector
+            led market development approaches on donor-funded programs in
+            Nigeria. Continuous work with DFID then the FCDO since 2012 in Abuja
+            and Northern Nigeria. Native Hausa speaker with strong experience
+            managing field staff, collaborating with project teams and engaging
+            with key stakeholders. Familiar with mainstreaming gender and social
+            inclusion into project interventions for impact on agribusiness
+            development projects.
+          </p>
+          
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <q-img class="hosea" src="/images/Hosea.jpg"></q-img>
+          
+        </div>
+        </div>
+
+        <div class="row container q-py-xl q-mt-lg text-justify">
+
+        
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <!-- <div class="row">
             <div>
               <p class="text-h6 my-font-poppins-light text-primary">
                 Extension Manager
@@ -899,8 +1038,8 @@
             <q-avatar square size="100px">
               <q-img height="auto" src="/images/Hosea.jpg" contain></q-img>
             </q-avatar>
-          </div>
-          <p class="text-white text-justify">
+          </div> -->
+          <!-- <p class="text-white text-justify">
             International development professional with over Nine (9) years of
             professional experience facilitating and designing Monitoring and
             Evaluation (M&E) systems, program interventions, and private sector
@@ -911,8 +1050,10 @@
             with key stakeholders. Familiar with mainstreaming gender and social
             inclusion into project interventions for impact on agribusiness
             development projects.
-          </p>
-          <p class="text-white">
+          </p> -->
+
+          
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -927,7 +1068,7 @@
             Tetra Tech International Development (formerly Coffey International
             Development).
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -940,7 +1081,7 @@
             67.55m programme focused on investment, innovation and business
             environment development.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -954,7 +1095,7 @@
             <br />
             Palladium International Development Nigeria Ltd.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -972,7 +1113,7 @@
             Environmental initiatives/Agricultural mechanization and Livestock
             production and Dairy value chains.
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -986,9 +1127,7 @@
             <br />
             Palladium International Development Nigeria Ltd
           </p>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1003,7 +1142,26 @@
             poultry and animal health, sesame, access to finance, and improved
             cook stoves.
           </p>
-          <p class="text-white">
+
+          <p style="font-size: 1.1rem" class="text-black">
+            <q-icon
+              color="primary"
+              name="ion-briefcase"
+              style="font-size: 1.5em"
+              class="q-mr-sm text-justify"
+            />
+            <span class="my-font-poppins-bold">
+              Research Consultant/Officer, DFID-funded Propcom Mai-Karfi
+              program; Kaduna; Nigeria
+            </span>
+            <br />
+            Palladium International Development Nigeria Ltd (Propcom Mai-karfi).
+          </p>
+          
+        </div>
+        <div class="col-md-6 col-sm-12 date col-xs-12 q-pl-xl">
+          
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1018,22 +1176,8 @@
             Palladium International Development Nigeria Ltd
           </p>
 
-          <p class="text-white">
-            <q-icon
-              color="primary"
-              name="ion-briefcase"
-              style="font-size: 1.5em"
-              class="q-mr-sm text-justify"
-            />
-            <span class="my-font-poppins-bold">
-              Research Consultant/Officer, DFID-funded Propcom Mai-Karfi
-              program; Kaduna; Nigeria
-            </span>
-            <br />
-            Palladium International Development Nigeria Ltd (Propcom Mai-karfi).
-          </p>
-
-          <p class="text-white">
+          
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1045,7 +1189,7 @@
             </span>
           </p>
 
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1057,7 +1201,7 @@
               impact of interventions across 17 Northern states of Nigeria.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1069,7 +1213,7 @@
               entry templates and data capturing forms.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1081,7 +1225,7 @@
               and supervised Enumerators during data collection.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1093,7 +1237,7 @@
               from the field using MS Excel.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1105,7 +1249,7 @@
               and Research Managers.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1118,7 +1262,7 @@
               situations.
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1136,16 +1280,25 @@
             -Sheep, Goats and Cattle)
           </p>
         </div>
+        </div>
+
       </div>
 
+      
+
       <!-- B U L U S  E Z E K I E L  D O K A  -->
-      <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-lg container text-justify">
-        <!-- Column ONE -->
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+      <!-- <q-separator class="bg-grey-9 q-px-xl q-mx-xl" /> -->
+
+      <div class="holddd pbb bg-secondary">
+        <div class="row q-py-xl container">
+          <div class="col-md-6 col-sm-12 col-xs-12 ">
+            <q-img class="bulus" src="/images/Ezekiel.jpg"></q-img>
+
+          </div>
+
+          <div class="col-md-6 col-sm-12 q-mt-lg col-xs-12 date q-pl-xl">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
                 Extension Manager
               </p>
               <p
@@ -1158,26 +1311,31 @@
               >
                 Bulus Ezekiel Doka
               </p>
+              <q-space></q-space>
+
+              <p style="font-size: 1.2rem" class="text-white text-justify">
+              Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced
+              agricultural expert with years of experience working with
+              individuals and organization in field of agricultural market
+              development. Skills include; ability to pay Attention to details,
+              ability to develop capacity of others, self-motivated to achieving
+              results, good listener, effective communicator, and good
+              communicator in English and Hausa languages, good team player,
+              highly dedicated. Good relationship builder and dynamic communicator
+              who consistently meets goals and expectations. Excellent at juggling
+              multiple task and working under pressure.
+              </p>
             </div>
-            <q-space></q-space>
-            <q-avatar square size="100px">
-              <q-img height="auto" src="/images/Ezekiel.jpg" contain></q-img>
-            </q-avatar>
           </div>
-          <p class="text-white text-justify">
-            Bulus Ezekiel Doka is a highly ambitious, seasoned and experienced
-            agricultural expert with years of experience working with
-            individuals and organization in field of agricultural market
-            development. Skills include; ability to pay Attention to details,
-            ability to develop capacity of others, self-motivated to achieving
-            results, good listener, effective communicator, and good
-            communicator in English and Hausa languages, good team player,
-            highly dedicated. Good relationship builder and dynamic communicator
-            who consistently meets goals and expectations. Excellent at juggling
-            multiple task and working under pressure.
-          </p>
+        
+          
+        </div>
+        <div class="row q-mt-lg container text-justify">
+        <!-- Column ONE -->
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          
           <!-- Job Heading -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1189,7 +1347,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1202,7 +1360,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1215,7 +1373,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1229,7 +1387,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1242,7 +1400,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1255,7 +1413,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1269,7 +1427,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1282,7 +1440,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1295,7 +1453,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1308,7 +1466,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1322,7 +1480,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1335,7 +1493,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1348,7 +1506,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1363,9 +1521,9 @@
         </div>
 
         <!-- Column TWO -->
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
+        <div class="col-md-6 col-sm-12 date q-pl-xl col-xs-12">
           <!-- Job Heading -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1379,7 +1537,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1392,7 +1550,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1407,7 +1565,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1422,7 +1580,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1436,7 +1594,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1451,7 +1609,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1464,7 +1622,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1478,7 +1636,7 @@
           </p>
 
           <!-- Job Heading -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1491,7 +1649,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1504,7 +1662,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1517,7 +1675,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1530,7 +1688,7 @@
             </span>
           </p>
           <!-- Job Role -->
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-white">
             <q-icon
               color="primary"
               name="ion-checkmark"
@@ -1544,15 +1702,18 @@
             </span>
           </p>
         </div>
+        </div>
+
       </div>
+      
 
       <!-- J E R R Y  M A T T H E W  W A Z I R I -->
       <q-separator class="bg-grey-9 q-px-xl q-mx-xl" />
-      <div class="row q-mt-lg container text-justify">
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+      <div class="row q-mt-lg q-py-xl container text-justify">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="row cen q-pb-xl">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
                 Business Development Officer
               </p>
               <p
@@ -1560,18 +1721,18 @@
                   text-h6
                   my-font-poppins-bold
                   custom__heading-green
-                  text-white
+                  text-black
                 "
               >
                 JERRY MATTHEW WAZIRI
               </p>
             </div>
             <q-space></q-space>
-            <q-avatar square size="100px">
-              <q-img height="auto" src="/images/Jerry.jpg" contain></q-img>
-            </q-avatar>
+            
+            <q-img class="jerry" src="/images/Jerry.jpg"></q-img>
+            
           </div>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1582,7 +1743,7 @@
               [2020] Nomavart Nigeria Limited Kaduna State, Kaduna
             </span>
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1596,7 +1757,7 @@
             <br />
             Consultant (Extension Expert)
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1610,7 +1771,7 @@
             <br />
             Consultant (Cattle Expert)
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1625,7 +1786,7 @@
             Business Development Coordinator – Feed Finishing (Small and Large
             Ruminants) and Skin Quality Initiatives
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1639,7 +1800,7 @@
             <br />
             Administrative and Finance Officer (Operations)
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1653,7 +1814,7 @@
             <br />
             Media Monitor
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1669,10 +1830,10 @@
         </div>
 
         <!-- H A B I B U  Z A K A R I  A M I N U -->
-        <div class="col-md-6 col-sm-12 col-xs-12 q-pa-xl">
-          <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 date q-pl-xl">
+          <div class="row cen q-pb-xl">
             <div>
-              <p class="text-h6 my-font-poppins-light text-primary">
+              <p style="font-size: 1.5rem" class="text-h6 my-font-poppins-light text-primary">
                 Business Development Officer
               </p>
               <p
@@ -1680,18 +1841,18 @@
                   text-h6
                   my-font-poppins-bold
                   custom__heading-green
-                  text-white
+                  text-black
                 "
               >
                 HABIBU ZAKARI AMINU
               </p>
             </div>
             <q-space></q-space>
-            <q-avatar square size="100px">
-              <q-img height="auto" src="/images/Habibu.jpg" contain></q-img>
-            </q-avatar>
+            
+            <q-img  src="/images/Habibu.jpg" class="zaka"></q-img>
+          
           </div>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1702,7 +1863,7 @@
             <br />
             2015 - Date
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1715,7 +1876,7 @@
             <br />
             2020 - 2021
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1728,7 +1889,7 @@
             <br />
             2020 - Date
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1741,7 +1902,7 @@
             <br />
             2015 - 2017
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1754,7 +1915,7 @@
             <br />
             2013 - 2015
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1764,7 +1925,7 @@
             <span class="my-font-poppins-bold"> IFDC, Mir Plus Project. </span>
             <br />2010 - 2013
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1777,7 +1938,7 @@
             <br />
             2007 - 2010
           </p>
-          <p class="text-white">
+          <p style="font-size: 1.1rem" class="text-black">
             <q-icon
               color="primary"
               name="ion-briefcase"
@@ -1792,7 +1953,7 @@
       </div>
     </section>
     <!--Footer Section-->
-    <section class="bg-secondary">
+    <section class="bg-warning">
       <q-separator class="bg-grey-9 q-px-xl" />
       <div class="q-pa-xl text-white my-font-poppins-regular">
         <p class="text-h6 text-center my-font-poppins-bold">
@@ -1812,6 +1973,24 @@
         </div>
         <div class="row footer-row">
           <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+            <q-img class="imggs" src="/images/logog.png" cover></q-img>
+            <!-- <div class="text-body1 text-bold">About</div>
+            <q-separator class="bg-grey-9" style="width: 50%" />
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/')"
+            >
+              Home
+            </div>
+            <div
+              class="text-body2 q-mt-md cursor-pointer"
+              @click="$router.push('/about')"
+            >
+              About Us
+            </div> -->
+          </div>
+
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold">About</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div
@@ -1826,11 +2005,6 @@
             >
               About Us
             </div>
-          </div>
-
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-            <div class="text-body1 text-bold">Resources</div>
-            <q-separator class="bg-grey-9" style="width: 50%" />
             <div
               class="text-body2 q-mt-md cursor-pointer"
               @click="$router.push('/team')"
@@ -1844,11 +2018,15 @@
               Projects
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 text-bold my-font">Social Media</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-facebook" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-facebook"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -1857,7 +2035,11 @@
               >
             </div>
             <div class="text-body2 q-mt-md cursor-pointer">
-              <q-icon name="ion-logo-linkedin" style="font-size: 2em" />
+              <q-icon
+                class="for"
+                name="ion-logo-linkedin"
+                style="font-size: 2em"
+              />
               <a
                 style="text-decoration: none"
                 class="text-white"
@@ -1866,7 +2048,7 @@
               >
             </div>
           </div>
-          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-md my-font-nav">
+          <div class="col-md-2 col-sm-12 col-xs-12 q-pt-lg my-font-nav">
             <div class="text-body1 typo1 text-bold my-font">Contact Info</div>
             <q-separator class="bg-grey-9" style="width: 50%" />
             <div class="text-body2 typo1 q-mt-md">
@@ -1879,13 +2061,13 @@
           </div>
         </div>
         <q-separator class="bg-grey-9 q-px-xl q-mt-xl" />
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           © 2021 NOMAVART. All rights reserved.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           By Greysoft© Technologies.
         </div>
-        <div class="text-caption text-center text-grey-6">
+        <div class="text-caption text-center text-white">
           <q-btn
             class="q-mt-sm text-primary"
             no-caps
@@ -1896,7 +2078,7 @@
             href="https://www.nomavart.com:2096/"
             target="_blank"
           >
-            <span class="q-pl-sm">Check Mail</span>
+            <span class="q-pl-sm text-white">Check Mail</span>
           </q-btn>
         </div>
       </div>
@@ -1953,5 +2135,318 @@ export default {
   content: " ";
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.images-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  position: relative;
+  gap: .45rem;
+}
+.board-im::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: .45;
+  top: 0;
+  right: 0;
+  background: linear-gradient(180deg, #07a007 0%, #006633 71.84%);
+
+
+}
+
+.imggg{
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: visible !important;
+}
+
+.imggg::before{
+  content: '';
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  left: -20% !important;
+  bottom: -15%;
+}
+.members-img{
+  position: relative;
+  // width: 100%;
+  overflow: visible !important;
+ width: 80%;
+//  padding-bottom: 2rem;
+ height: 400px;
+//  object-position: center;
+}
+
+.moh{
+  position: relative;
+  width: 100%;
+  overflow: visible !important;
+//  width: 80%;
+//  padding-bottom: 2rem;
+ height: 400px;
+ object-fit: contain;
+//  object-position: center;
+}
+
+.members-img::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: -20% !important;
+  top: -30%;
+}
+
+.moh::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  left: -20% !important;
+  top: -40%;
+  
+}
+
+.hosea{
+  position: relative;
+  width: 100%;
+  overflow: visible !important;
+//  width: 80%;
+//  padding-bottom: 2rem;
+ height: 400px;
+ object-fit: contain;
+ background: transparent;
+//  object-position: center;
+}
+
+.hosea::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: -20% !important;
+  top: -40%;
+  
+}
+.bulus{
+  position: relative;
+  width: 100%;
+  overflow: visible !important;
+//  width: 80%;
+//  padding-bottom: 2rem;
+ height: 400px;
+ object-fit: contain;
+ background: transparent;
+//  object-position: center;
+}
+
+.bulus::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  left: -20% !important;
+  top: -40%;
+  
+}
+
+
+.jerry, .zaka{
+  width: 40%;
+  height: 250px;
+  overflow: visible !important;
+}
+
+.jerry::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: -10% !important;
+  top: -10%;
+  
+}
+
+.zaka::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: -10% !important;
+  top: -10%;
+  
+}
+.imggs {
+  animation: zoom 2s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 0.55;
+    /* transform: scale(1); */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    /* transform: scale(1); */
+  }
+}
+
+.pad{
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  // margin-bottom: 4rem;
+}
+.pbb{
+padding-bottom: 8rem !important;
+}
+.padd{
+  padding-top: 5rem;
+  padding-bottom: 8rem !important;
+}
+
+
+@media(max-width: 1200px){
+  .imggg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible !important;
+}
+.imggg::before{
+  content: '';
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  left: -20% !important;
+  bottom: 15%;
+}
+
+.pad{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  // margin-bottom: 4rem;
+}
+.hosea::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: 50% !important;
+  top: 50% !important;
+  
+}
+.flexx{
+display: flex;
+flex-direction: column-reverse !important;
+}
+
+.members-img::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: -20% !important;
+  top: 20%;
+}
+
+
+
+.jerry::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: 50% !important;
+  top: 50%;
+  
+}
+
+.zaka::before{
+  content: '';
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  background-color: #07a007;
+  // z-index: 2;
+  overflow: visible;
+  right: 50% !important;
+  top: 50%;
+  
+}
+
+.dataa{
+  
+  margin: 1rem 0;
+}
+.date{
+  padding: 0 !important;
+}
+
+}
+
+@media(max-width:670px){
+  .pad{
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  // margin-bottom: 4rem;
+}
+.pbb{
+padding-bottom: 5rem !important;
+}
+.padd{
+  padding-top: 5rem;
+  padding-bottom: 5rem !important;
+}
+
+.jerry, .zaka{
+  width: 100%;
+  height: 250px;
+  overflow: visible !important;
+}
 }
 </style>
