@@ -20,7 +20,7 @@
             to the community and the environment <br />
             in which the project is about to be placed.
           </h3>
-          <q-btn
+          <!-- <q-btn
             @click="$router.push('/about')"
             no-caps
             outline
@@ -29,13 +29,14 @@
             class="text-primary bt bg-white q-i my-font-poppins-light"
             icon-right="ion-arrow-round-forward"
             label="Get Started Now"
-          />
+          /> -->
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12">
           <q-carousel
             animated
             v-model="slide"
             infinite
+            autoplay="true"
             
             thumbnails
             transition-prev="slide-right"
@@ -52,8 +53,9 @@
     </header>
     <Aboutt />
     <section class="bg-white q-py-xl">
+      <h3 class="text-positive text-center text-weight-bold">Our Goals</h3>
       <div class="row container">
-        <div class="col-md-4 pad col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card car q-my-md bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -78,7 +80,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 pad q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card q-my-md bg-white car">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -104,7 +106,7 @@
           </q-card>
         </div>
 
-        <div class="col-md-4 col-sm-12 col-xs-12 pad q-px-xl q-py-md">
+        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card q-my-md bg-white car">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -284,11 +286,12 @@
         </div>
       </div>
       <div class="btnn text-center q-pa-md">
-        <q-btn class="q-px-xl q-py-sm btnnn bg-primary text-white"
+        <q-btn to="/teams" class="q-px-xl q-py-sm btnnn bg-primary text-white"
           >View More</q-btn
         >
       </div>
     </section>
+    <!-- <Partners/> -->
     <section class="bg-accent q-py-xl">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span
@@ -443,7 +446,7 @@
               </div>
               <div
                 style="font-size: 1em"
-                class="text-subtitle2 hello text-dark my-font-poppins-light"
+                class="text-subtitle2 hello text-black my-font-poppins-light"
               >
                 Conducting professional training seminars (agronomy and
                 livestock) for local farmers and creating a training concept to
@@ -652,6 +655,7 @@
     <Newsletter />
     <Goal />
     <Touch />
+    
 
     <!--Footer Section-->
     <section class="bg-warning">
@@ -789,10 +793,13 @@
 
 <script>
 import { useMeta } from "quasar";
+// import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import Aboutt from "./Aboutt.vue";
 import Newsletter from "./Newsletter.vue";
 import Goal from "./Goal.vue";
 import Touch from "./Touch.vue";
+import Partners from './Partners.vue'
+
 
 const metaData = {
   // sets document title
@@ -820,7 +827,9 @@ export default {
     Aboutt,
     Newsletter,
     Goal,
-    Touch
+    Touch,
+    Partners,
+    
   },
   data: () => ({
     slide: 1,
@@ -877,7 +886,8 @@ export default {
   padding-top: 1rem;
 }
 .cer {
-  min-height: 350px !important;
+  min-height: 400px !important;
+  color:  #000 !important;
 }
 
 .cer .core-img {
@@ -903,6 +913,7 @@ export default {
 }
 .car {
   transition: all 0.5s ease-in-out;
+  min-height: 400px;
 }
 
 .car:hover .heyy,
@@ -999,6 +1010,10 @@ export default {
   position: relative;
   z-index: 4;
 }
+
+// .pad{
+//   padding: 0 !important;
+// }
 
 .imagess .imggs:nth-child(1) {
   width: 80%;

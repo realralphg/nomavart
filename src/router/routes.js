@@ -17,6 +17,10 @@ const routes = [
         path: '/project',
         component: () => import('pages/Projects.vue')
       },
+      {
+        path: '/teams',
+        component: () => import('pages/Teamsp.vue')
+      },
     ]
   },
   // Always leave this as last one,
