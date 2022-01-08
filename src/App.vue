@@ -16,6 +16,15 @@ export default {
   justify-content: center !important;
   align-items: center;
 }
+
+.q-carousel__slide{
+  border: 3px solid #fff;
+  border-radius: 5%;
+}
+
+.q-carousel {
+  border-radius: 8px !important;
+}
 /* .mb,
 .mt {
   margin: 2rem 0 !important;

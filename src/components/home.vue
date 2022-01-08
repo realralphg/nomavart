@@ -36,7 +36,7 @@
             animated
             v-model="slide"
             infinite
-            autoplay="true"
+            autoplay
             
             thumbnails
             transition-prev="slide-right"
@@ -1192,7 +1192,7 @@ export default {
   }
 
   .head {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .bt {
     font-size: small !important;
@@ -1266,7 +1266,7 @@ export default {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .ima {
     // background-color: #fff;
     grid-template-columns: repeat(1, 1fr);
