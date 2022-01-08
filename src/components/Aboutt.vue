@@ -64,6 +64,7 @@ box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
   position: relative;
   left: 10%;
   width: 70%;
+  border-radius: 8px;
   height: 100%;
 
   /* transform: translateX(-25%); */
@@ -77,6 +78,8 @@ box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
 box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
   right: 0;
   top: 5%;
+  border-radius: 8px;
+
   
 }
 

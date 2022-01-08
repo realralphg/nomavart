@@ -9,6 +9,13 @@ export default {
 };
 </script>
 <style>
+.glide__bullets{
+  width: 100%;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
 /* .mb,
 .mt {
   margin: 2rem 0 !important;

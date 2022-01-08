@@ -55,7 +55,7 @@
     <section class="bg-white q-py-xl">
       <h3 class="text-positive text-center text-weight-bold">Our Goals</h3>
       <div class="row container">
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 date col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card car q-my-md bg-white">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -80,7 +80,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 date col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card q-my-md bg-white car">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -106,7 +106,7 @@
           </q-card>
         </div>
 
-        <div class="col-md-4 col-sm-12 col-xs-12 q-px-xl q-py-md">
+        <div class="col-md-4 date col-sm-12 col-xs-12 q-px-xl q-py-md">
           <q-card class="my-card q-my-md bg-white car">
             <q-card-section class="q-py-xl text-left">
               <q-icon
@@ -156,7 +156,7 @@
       </p> -->
       <div class="row cen container q-mt-sm">
         <div class="col-md-6 col-sm-12 col-xs-12 pad q-pt-xl q-px-xl">
-          <q-img class="q-mb-lg" src="/images/ayok.jpg" cover></q-img>
+          <q-img class="q-mb-lg hy" src="/images/ayok.jpg" cover></q-img>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12 pad q-px-xl q-mb-xl">
           <!-- <p class="text-h6 my-font-poppins-light text-primary">
@@ -292,6 +292,7 @@
       </div>
     </section>
     <!-- <Partners/> -->
+    <Part/>
     <section class="bg-accent q-py-xl">
       <p class="text-center q-pt-xl q-pb-sm" :class="screenRatioHeading">
         <span
@@ -798,7 +799,8 @@ import Aboutt from "./Aboutt.vue";
 import Newsletter from "./Newsletter.vue";
 import Goal from "./Goal.vue";
 import Touch from "./Touch.vue";
-import Partners from './Partners.vue'
+// import Partners from './Partners.vue'
+import Part from './Part.vue'
 
 
 const metaData = {
@@ -828,7 +830,7 @@ export default {
     Newsletter,
     Goal,
     Touch,
-    Partners,
+    Part
     
   },
   data: () => ({
@@ -879,6 +881,10 @@ export default {
   background-position: center !important;
   background-blend-mode: overlay;
   width: 100%;
+}
+
+.hy{
+  border-radius: 8px;
 }
 
 .statement {
@@ -960,6 +966,7 @@ export default {
 
 .images .imgg {
   object-fit: contain !important;
+  border-radius: 8px;
 }
 
 .images .imgg:nth-child(1) {
@@ -968,6 +975,14 @@ export default {
   position: none;
   left: -15%;
   top: 10%;
+  transition: all 0.5s ease-in-out;
+  
+
+}
+
+.images .imgg:nth-child(1):hover {
+  transform: scale(1.1);
+
 }
 .images .imgg:nth-child(2) {
   width: 50%;
@@ -975,6 +990,13 @@ export default {
   position: absolute;
   right: 2%;
   top: -15%;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.images .imgg:nth-child(2):hover {
+  transform: scale(1.1);
+
 }
 .images .imgg:nth-child(3) {
   width: 50%;
@@ -982,6 +1004,15 @@ export default {
   position: absolute;
   right: 2%;
   bottom: -10%;
+  transition: all  0.5s ease-in-out;
+
+
+}
+
+.images .imgg:nth-child(3):hover {
+  transform: scale(1.1);
+
+
 }
 
 .images::before {
@@ -992,6 +1023,8 @@ export default {
   background: linear-gradient(180deg, #33cc33 0%, #006633 100%);
   box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
   right: 0;
+  border-radius: 8px;
+
   // top: 5%;
 }
 
@@ -999,6 +1032,7 @@ export default {
   position: relative;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  transition: all 0.5s ease-in-out;
   // height: 100%;
 }
 
@@ -1009,6 +1043,7 @@ export default {
 .imagess .imggs:nth-child(1):hover {
   position: relative;
   z-index: 4;
+  transform: scale(1.1);
 }
 
 // .pad{
@@ -1017,6 +1052,7 @@ export default {
 
 .imagess .imggs:nth-child(1) {
   width: 80%;
+  transition: all 0.5s ease-in-out;
 }
 .imagess .imggs:nth-child(2) {
   width: 50%;
@@ -1026,6 +1062,7 @@ export default {
   top: -10%;
   object-fit: contain;
   border-radius: 8px;
+  
 }
 .imagess .imggs:nth-child(3) {
   width: 50%;
@@ -1242,6 +1279,9 @@ export default {
     background: url("/images/ilu.png"),
       linear-gradient(180deg, #0a1129 0%, #19213c 100%) !important;
   }
+  .date{
+  padding: 0 !important;
+}
 }
 
 @media (max-width: 350px) {

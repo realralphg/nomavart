@@ -3,8 +3,8 @@
     <div class="det">
       <h1 class="text-weight-bold text-h2 text-white">About Us</h1>
       <p style="font-size:1.2rem" class="text-center text-white q-pa-md">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
-        quos labore tempora praesentium eveniet deleniti!
+        From project inception we already feel connected to the community 
+        and the environment in which the project is about to be placed.
       </p>
     </div>
   </div>

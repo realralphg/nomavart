@@ -249,12 +249,12 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 q-my-lg date q-px-xl">
+        <div class="col-md-3 col-sm-12 col-xs-12 date q-py-md q-px-xl">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/bargo.jpg" />
             <q-card-section>
               <div
-                class="text-body2 q-my-sm text-positve text-center my-font-poppins-light"
+                class="text-body2 q-my-sm text-positive text-center my-font-poppins-light"
               >
                 Engr. Iliya Duniya
               </div>
@@ -270,7 +270,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 q-my-lg date q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 date q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/AliAngo.jpg" />
             <q-card-section>
@@ -291,7 +291,7 @@
             </q-card-section>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-12 col-xs-12 date q-my-lg q-px-xl q-py-md">
+        <div class="col-md-3 col-sm-12 col-xs-12 date q-px-xl q-py-md">
           <q-card class="bg-white q-pa-md hey">
             <q-img class="board-img" cover src="/images/Natsa.jpg" />
             <q-card-section>
